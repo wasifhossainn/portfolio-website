@@ -15,9 +15,9 @@ import './style.scss';
 const About = () => {
 	return (
 		<React.Fragment>
-			<img className="techboy" src={Boy} />
-			<img className="divider" src={Divider} />
-			<img className="chatbubble" src={ChatBubble} />
+			<img alt="" className="techboy" src={Boy} />
+			<img alt="" className="divider" src={Divider} />
+			<img alt="" className="chatbubble" src={ChatBubble} />
 
 			<div className="content" id="About">
 				<h1 className="aboutHeading">ABOUT ME</h1>
@@ -45,18 +45,18 @@ const About = () => {
 
 				<h1 className="socialHeading">SOCIAL LINKS</h1>
 
-				<a alt="" target="_blank" href="https://github.com/wasifhossainn">
+				<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn">
 					<img alt="" className="github" src={Github} />
 				</a>
-				<a alt="" target="_blank" href="https://au.linkedin.com/in/wasif-hossain-b4398115a">
+				<a alt="" rel="noopener noreferrer" target="_blank" href="https://au.linkedin.com/in/wasif-hossain-b4398115a">
 					<img alt="" className="linkedin" src={LinkedIn} />
 				</a>
 
-				<a alt="" target="_blank" href="mailto:wasif.hossain@hotmail.com">
+				<a alt="" rel="noopener noreferrer" target="_blank" href="mailto:wasif.hossain@hotmail.com">
 					<img alt="" className="email" src={Email} />
 				</a>
 
-				<a alt="" target="_blank" href={PDF}>
+				<a alt="" rel="noopener noreferrer" target="_blank" href={PDF}>
 					<img alt="" className="resume" src={Resume} />
 				</a>
 				<p className="github-txt">Github</p>

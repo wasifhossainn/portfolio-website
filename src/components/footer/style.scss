@@ -2,3 +2,60 @@
 	height: 100vh;
 	background-color: mediumturquoise;
 }
+
+.footer {
+	height: 80vh;
+	z-index: 20;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	background-image: linear-gradient(to top, #55c1f9 10%, #40aeaa 60%);
+}
+
+.footer-github {
+	margin-top: 450px;
+	margin-left: 200px;
+	position: sticky;
+	position: -webkit-sticky;
+	z-index: 60;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	position: absolute;
+	display: block;
+}
+
+.footer-linkedin {
+	margin-top: 450px;
+	margin-left: 650px;
+	position: sticky;
+	position: -webkit-sticky;
+	z-index: 60;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	position: absolute;
+	display: block;
+}
+
+.footer-email {
+	margin-top: 450px;
+	margin-left: 1100px;
+	position: sticky;
+	position: -webkit-sticky;
+	z-index: 60;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	position: absolute;
+	display: block;
+}
+
+.footer-file {
+	margin-top: 430px;
+	margin-left: 1550px;
+	position: sticky;
+	position: -webkit-sticky;
+	z-index: 60;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	position: absolute;
+	display: block;
+}
