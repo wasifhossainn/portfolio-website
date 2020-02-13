@@ -31,12 +31,12 @@ export default class SimpleSlider extends Component {
 		return (
 			<div className="sliding-in">
 				<Slider {...settings}>
-					<div class="flip-card">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
+					<div className="flip-card">
+						<div className="flip-card-inner">
+							<div className="flip-card-front">
 								<img src={carGame} className="front" />
 							</div>
-							<div class="flip-card-back">
+							<div className="flip-card-back">
 								<h1>CAR RUSH</h1>
 								<p>
 									Side Project I worked on using Python 3.4, where you have to dodge incoming cars by using arrow keys.{' '}
@@ -48,12 +48,12 @@ export default class SimpleSlider extends Component {
 							</div>
 						</div>
 					</div>
-					<div class="flip-card">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
+					<div className="flip-card">
+						<div className="flip-card-inner">
+							<div className="flip-card-front">
 								<img src={SpaceInvaders} className="front" />
 							</div>
-							<div class="flip-card-back">
+							<div className="flip-card-back">
 								<h1>EARTH X ALIENS</h1>
 								<p>
 									High School Project working in a team, I worked on the front-end using Python and interface for the
@@ -71,12 +71,12 @@ export default class SimpleSlider extends Component {
 							</div>
 						</div>
 					</div>
-					<div class="flip-card">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
+					<div className="flip-card">
+						<div className="flip-card-inner">
+							<div className="flip-card-front">
 								<img src={OneVice} className="front" />
 							</div>
-							<div class="flip-card-back">
+							<div className="flip-card-back">
 								<h1>OneVice</h1>
 								<p>
 									University Project working in a team, I worked as a full-stack developer using Java, XML and Firebase
@@ -95,12 +95,12 @@ export default class SimpleSlider extends Component {
 							</div>
 						</div>
 					</div>
-					<div class="flip-card">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
+					<div className="flip-card">
+						<div className="flip-card-inner">
+							<div className="flip-card-front">
 								<img src={ezyDonate} className="front" />
 							</div>
-							<div class="flip-card-back">
+							<div className="flip-card-back">
 								<h1>ezyDonate</h1>
 								<p>
 									University Project working in a team, I worked as a front-end developer using Java and XML however, I
@@ -114,12 +114,12 @@ export default class SimpleSlider extends Component {
 							</div>
 						</div>
 					</div>
-					<div class="flip-card">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
+					<div className="flip-card">
+						<div className="flip-card-inner">
+							<div className="flip-card-front">
 								<img src={everNoteApp} className="front" />
 							</div>
-							<div class="flip-card-back">
+							<div className="flip-card-back">
 								<h1>EverNote App</h1>
 								<p>
 									Side Project I worked on following a tutorial to learn about React and Firebase. Evernote app allows
@@ -132,12 +132,12 @@ export default class SimpleSlider extends Component {
 							</div>
 						</div>
 					</div>
-					<div class="flip-card">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
+					<div className="flip-card">
+						<div className="flip-card-inner">
+							<div className="flip-card-front">
 								<img src={StreamApp} className="front" />
 							</div>
-							<div class="flip-card-back">
+							<div className="flip-card-back">
 								<h1>StreamZ App</h1>
 								<p>
 									Side Project I worked on using React, Router, Redux thunk, Axios, Semantic UI and Google O-Auth. The
@@ -152,12 +152,12 @@ export default class SimpleSlider extends Component {
 							</div>
 						</div>
 					</div>{' '}
-					<div class="flip-card">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
+					<div className="flip-card">
+						<div className="flip-card-inner">
+							<div className="flip-card-front">
 								<img src={ezyDonatePromo} className="front" />
 							</div>
-							<div class="flip-card-back">
+							<div className="flip-card-back">
 								<h1>ezyDonate Promo</h1>
 								<p>
 									First website project I worked on the side, to develop my HTML5, CSS3 and JQuery skills. This website
@@ -176,12 +176,12 @@ export default class SimpleSlider extends Component {
 							</div>
 						</div>
 					</div>{' '}
-					<div class="flip-card">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
+					<div className="flip-card">
+						<div className="flip-card-inner">
+							<div className="flip-card-front">
 								<img src={Algorithms} className="front" />
 							</div>
-							<div class="flip-card-back">
+							<div className="flip-card-back">
 								<h1>Algorithms App</h1>
 								<p>
 									High School Project using Python which includes search and sorting algorithms such as binary, linear,
@@ -196,12 +196,12 @@ export default class SimpleSlider extends Component {
 							</div>
 						</div>
 					</div>
-					<div class="flip-card">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
+					<div className="flip-card">
+						<div className="flip-card-inner">
+							<div className="flip-card-front">
 								<img src={ePortfolio} className="front" />
 							</div>
-							<div class="flip-card-back">
+							<div className="flip-card-back">
 								<h1> E-Portfolio Website</h1>
 								<p>
 									Personal project where I used React, Router, Sass, React Springs and Lottie library. The purpose of
