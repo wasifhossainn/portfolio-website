@@ -1,33 +1,47 @@
 .navbar {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 	background-color: rgba(0, 0, 0, 0.4);
-	align-items: center;
 	z-index: 90;
 	padding-right: 40px;
 	position: fixed;
 	overflow: hidden;
 	padding-left: 10px;
 	width: -webkit-fill-available;
+	width: -moz-available;
 	animation: slidedown 1s;
 
 	transition: top 0.6s;
 }
 
 .navbar--hidden {
-	top: -100px;
+	top: -1000px;
+}
+
+.sidebar--hidden {
+	display: none;
 }
 
 .animation {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	overflow: hidden;
+
+	overflow-y: hidden !important;
+
 	z-index: 20;
 }
 
 .background-color {
 	background-image: linear-gradient(to right, #f45f85 0%, #787ff0 100%);
 	height: 100vh;
+	width: 100vw;
+
+	overflow-y: hidden !important;
+	overflow: hidden;
 }
 
 .loadingText {
@@ -39,8 +53,21 @@
 	stroke-width: 0;
 	border: 0;
 	font-weight: 600;
+
+	overflow: hidden;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
+}
+.menu {
+	width: 50px;
+}
+
+.menu-toggle {
+	float: right;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	display: none;
 }
 
 .logo {
@@ -163,9 +190,10 @@
 	text-decoration: none;
 	transition: 0.2s;
 	box-shadow: 5px 2px 7px #fc60d8;
-	height: 35px;
 
 	border-color: #ff5eff;
+	height: 35px;
+
 	background-color: transparent;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bolder;
@@ -208,5 +236,64 @@ nav ul li {
 	to {
 		opacity: 1;
 		top: 0%;
+	}
+}
+
+.sidebar {
+	display: none;
+}
+
+@media (max-width: 991px) {
+	.menu-toggle {
+		display: block;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	.navbar {
+		// background-color: transparent;
+	}
+	.sidebar {
+		white-space: nowrap;
+		// height: 26vh;
+		color: #fff;
+
+		margin: 0;
+		width: 100%;
+
+		padding-top: 42px;
+		background-color: rgba(169, 67, 216, 0.63);
+
+		// padding-top: 34px;
+		// background-color: #b76bfa;
+		list-style: none;
+		padding-left: initial;
+		z-index: 70;
+		width: 100%;
+		display: block;
+		position: fixed;
+	}
+	.sidebar > li {
+		cursor: pointer;
+		padding-top: 10px;
+		width: 100%;
+
+		// box-shadow: 5px 1px 10px #fc60d8;
+
+		// border-color: #ff5eff;
+		padding-left: 30px;
+		padding-bottom: 15px;
+		font-family: raleway;
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	.sidebar > li:hover {
+		background-color: #9f31ff;
+
+		background-image: linear-gradient(to right, #b145ef 0%, #fc60d8 100%);
+		// border: 3px solid #fff;
 	}
 }
