@@ -18,6 +18,7 @@ const About = () => {
 			<img alt="" className="techboy" src={Boy} />
 			<img alt="" className="divider" src={Divider} />
 			<img alt="" className="chatbubble" src={ChatBubble} />
+			
 
 			<div className="content" id="About">
 				<h1 className="aboutHeading">ABOUT ME</h1>

@@ -19,6 +19,7 @@ class Navigation extends Component {
 		this.menuButton = this.menuButton.bind(this);
 	}
 
+	// Open SideBar
 	menuButton() {
 		const { open } = this.state;
 		this.setState({
