@@ -18,7 +18,6 @@ const About = () => {
 			<img alt="" className="techboy" src={Boy} />
 			<img alt="" className="divider" src={Divider} />
 			<img alt="" className="chatbubble" src={ChatBubble} />
-			
 
 			<div className="content" id="About">
 				<h1 className="aboutHeading">ABOUT ME</h1>
@@ -60,10 +59,14 @@ const About = () => {
 				<a alt="" rel="noopener noreferrer" target="_blank" href={PDF}>
 					<img alt="" className="resume" src={Resume} />
 				</a>
-				<p className="github-txt">Github</p>
-				<p className="linkedin-txt">LinkedIn</p>
-				<p className="email-txt">Email</p>
-				<p className="resume-txt">Resume</p>
+
+				<div className="container-txt">
+					{' '}
+					<p className="github-txt">Github</p>
+					<p className="linkedin-txt">LinkedIn</p>
+					<p className="email-txt">Email</p>
+					<p className="resume-txt">Resume</p>
+				</div>
 			</div>
 		</React.Fragment>
 	);

@@ -51,3 +51,57 @@
 	position: absolute;
 	display: block;
 }
+
+@media (max-width: 991px) {
+	.footer {
+		height: 100vh;
+		z-index: 20;
+		max-width: 100% !important;
+		overflow-x: hidden !important;
+		overflow-y: hidden !important;
+		background-image: linear-gradient(to top, #55c1f9 10%, #40aeaa 60%);
+	}
+	.footer-github {
+		margin-top: 100px;
+		margin-left: 180px;
+		z-index: 60;
+		height: auto;
+		// max-width: 100% !important;
+		overflow-x: hidden !important;
+		// position: relative;
+		display: block;
+	}
+
+	.footer-linkedin {
+		margin-top: 300px;
+		margin-left: 180px;
+		z-index: 60;
+		height: auto;
+		// max-width: 100% !important;
+		overflow-x: hidden !important;
+		// position: relative;
+		display: block;
+	}
+
+	.footer-email {
+		margin-top: 500px;
+		margin-left: 150px;
+		z-index: 60;
+		height: auto;
+		// max-width: 100% !important;
+		overflow-x: hidden !important;
+		// position: relative;
+		display: block;
+	}
+
+	.footer-file {
+		margin-top: 700px;
+		margin-left: 190px;
+		z-index: 60;
+		height: auto;
+		// max-width: 100% !important;
+		overflow-x: hidden !important;
+		// position: relative;
+		display: block;
+	}
+}

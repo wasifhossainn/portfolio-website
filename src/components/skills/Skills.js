@@ -31,20 +31,21 @@ const Skills = () => {
 					allowing users <br /> to absorb content through videos that are posted by businesses.
 				</p>
 
-				<CircularProgressbar className="progress-bar" value={HTMLPercent} text={`${HTMLPercent}%`} />
+				<CircularProgressbar className="progress-bar" value={HTMLPercent} text={'HTML5'} />
 
-				<CircularProgressbar className="progress-bar" value={CSSPercent} text={`${CSSPercent}%`} />
-				<CircularProgressbar className="progress-bar" value={ReactJSPercent} text={`${ReactJSPercent}%`} />
-				<CircularProgressbar className="progress-bar" value={JavaPercent} text={`${JavaPercent}%`} />
+				<CircularProgressbar className="progress-bar" value={CSSPercent} text={'CSS3'} />
+				{/* <CircularProgressbar className="progress-bar" value={CSSPercent} text={`${CSSPercent}%`} /> */}
+				<CircularProgressbar className="progress-bar" value={ReactJSPercent} text={'React + Redux'} />
+				<CircularProgressbar className="progress-bar" value={JavaPercent} text={'Java'} />
 
-				<CircularProgressbar className="progress-bar" value={PythonPercent} text={`${PythonPercent}%`} />
-				<CircularProgressbar className="progress-bar" value={SQLPercent} text={`${SQLPercent}%`} />
-				<p className="html-txt">HTML5</p>
+				<CircularProgressbar className="progress-bar" value={PythonPercent} text={'Python'} />
+				<CircularProgressbar className="progress-bar" value={SQLPercent} text={'SQL'} />
+				{/* <p className="html-txt">HTML5</p>
 				<p className="css-txt">CSS3</p>
 				<p className="react-txt">ReactJS + Redux</p>
 				<p className="java-txt">Java</p>
 				<p className="python-txt">Python</p>
-				<p className="sql-txt">SQL</p>
+				<p className="sql-txt">SQL</p> */}
 			</div>
 		</React.Fragment>
 	);

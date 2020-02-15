@@ -1,5 +1,5 @@
 .skill-content {
-	height: 140vh;
+	height: 130vh;
 	z-index: 20;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -53,7 +53,8 @@
 	 * This fixes an issue where the CircularProgressbar svg has
 	 * 0 width inside a "display: flex" container, and thus not visible.
 	 */
-	width: 10%;
+	width: 20vh;
+	padding-bottom: 20px;
 	/*
 	 * This fixes a centering issue with CircularProgressbarWithChildren:
 	 * https://github.com/kevinsqi/react-circular-progressbar/issues/94
@@ -80,7 +81,7 @@
 
 .CircularProgressbar .CircularProgressbar-text {
 	fill: #fff;
-	font-size: 20px;
+	font-size: 12px;
 	font-family: 'Segoe UI';
 	font-weight: bolder;
 	dominant-baseline: middle;
@@ -176,8 +177,49 @@
 	font-family: 'Segoe UI';
 }
 
-@media (min-width: 768px) {
-	p {
-		font-size: 10px;
+@media (max-width: 910px) {
+	.skillHeading {
+		margin-top: 500px;
+		margin-left: 20px;
+		color: #fff;
+		// position: relative;
+		font-weight: bold;
+		font-family: 'Segoe UI';
+		font-size: 10vw;
+		max-width: 100% !important;
+		border-bottom: 10px solid #11f4fc;
+		padding-bottom: 5px;
+	}
+	.team {
+		margin-top: 100px;
+		z-index: 60;
+		height: auto;
+		max-width: 35vh !important;
+		overflow-x: hidden !important;
+		position: absolute;
+		display: block;
+	}
+
+	.skill-content {
+		height: 100%;
+		z-index: 20;
+		max-width: 100% !important;
+		overflow-x: hidden !important;
+		overflow-y: hidden !important;
+		background-image: linear-gradient(to top, #55c1f9 -30%, #535eff 100%);
+	}
+
+	.skill-section-1 {
+		color: #fff;
+		margin-top: 620px;
+		margin-left: 40px;
+		font-weight: bold;
+		font-size: 30px;
+		font-family: 'Segoe UI';
+	}
+
+	.progress-bar {
+		margin-top: 100px;
+		margin-left: 150px;
 	}
 }
