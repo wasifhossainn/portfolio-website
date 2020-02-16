@@ -1,9 +1,17 @@
 import React, { useState } from 'react';
 
 import { Link } from 'react-scroll';
+import { useSpring, animated } from 'react-spring';
+
 
 const SideBar = () => {
+	const fade = useSpring({
+		from: { opacity: 0 },
+		to: { opacity: 1 }
+	});
 	return (
+		<animated.div style={fade}>
+		
 		<ul className="sidebar">
 			<li>
 				<Link activeClass="active" to="Home" spy={true} smooth={true} offset={70} duration={500}>
@@ -29,6 +37,7 @@ const SideBar = () => {
 				</Link>
 			</li>
 		</ul>
+		</animated.div>
 	);
 };
 
