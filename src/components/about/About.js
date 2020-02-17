@@ -35,7 +35,7 @@ const About = () => {
 				</p>
 
 				<p className="about-section-3">
-					In the future, I believe that software engineering gives me the opportunity and provides me exposure to tools
+					In the future, I believe that software engineering gives me opportunities and provides me exposure to tools
 					and skills
 					<br /> which can be implemented in real-world problems to produce premium quality applications and solutions.
 					These solutions can
