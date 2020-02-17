@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Slider from './SimpleSlider';
 
 import Monitor from '../../assets/Monitor.svg';

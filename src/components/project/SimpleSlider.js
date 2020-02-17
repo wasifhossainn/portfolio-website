@@ -34,7 +34,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img src={carGame} className="front" />
+								<img  alt="" src={carGame} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>CAR RUSH</h1>
@@ -51,7 +51,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img src={SpaceInvaders} className="front" />
+								<img  alt=""  src={SpaceInvaders} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>EARTH X ALIENS</h1>
@@ -74,7 +74,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img src={OneVice} className="front" />
+								<img  alt="" src={OneVice} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>OneVice</h1>
@@ -98,7 +98,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img src={ezyDonate} className="front" />
+								<img  alt="" src={ezyDonate} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>ezyDonate</h1>
@@ -117,7 +117,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img src={everNoteApp} className="front" />
+								<img  alt=""  src={everNoteApp} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>EverNote App</h1>
@@ -135,7 +135,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img src={StreamApp} className="front" />
+								<img alt="" src={StreamApp} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>StreamZ App</h1>
@@ -155,7 +155,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img src={ezyDonatePromo} className="front" />
+								<img  alt=""  src={ezyDonatePromo} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>ezyDonate Promo</h1>
@@ -179,7 +179,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img src={Algorithms} className="front" />
+								<img  alt="" src={Algorithms} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>Algorithms App</h1>
@@ -199,7 +199,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img src={ePortfolio} className="front" />
+								<img  alt=""  src={ePortfolio} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1> E-Portfolio Website</h1>
