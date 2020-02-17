@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Slider from './SimpleSlider';
-import { useSpring, animated as a } from 'react-spring';
 
 import Monitor from '../../assets/Monitor.svg';
 import CodingBoy from '../../assets/StudentWorkingComp.svg';
