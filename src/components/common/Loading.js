@@ -17,8 +17,8 @@ class Loading extends React.Component {
 								preserveAspectRatio: 'xMidYMid slice'
 							}
 						}}
-						width={700}
-						height={700}
+						width={650}
+						height={650}
 					/>
 				</div>
 				<h2 className="loadingText"> Building...</h2>
