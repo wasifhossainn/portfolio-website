@@ -3,7 +3,7 @@
 	align-items: center;
 	justify-content: space-between;
 	background-color: rgba(0, 0, 0, 0.4);
-	z-index: 90;
+	z-index: 100;
 	padding-right: 40px;
 	position: fixed;
 	overflow: hidden;
@@ -239,6 +239,17 @@ nav ul li {
 	}
 }
 
+@keyframes slideup {
+	from {
+		opacity: 1;
+		top: 0%;
+	}
+	to {
+		opacity: 0;
+		top: -100%;
+	}
+}
+
 .sidebar {
 	display: none;
 }
@@ -270,13 +281,16 @@ nav ul li {
 		// background-color: #b76bfa;
 		list-style: none;
 		padding-left: initial;
-		z-index: 70;
+		z-index: 90;
 		width: 100%;
 		display: block;
+
 		position: fixed;
 	}
 	.sidebar > li {
 		cursor: pointer;
+
+		animation: slidedown 1s;
 		padding-top: 10px;
 		width: 100%;
 
@@ -293,6 +307,7 @@ nav ul li {
 	.sidebar > li:hover {
 		background-color: #9f31ff;
 
+		animation: slideup 1s;
 		background-image: linear-gradient(to right, #b145ef 0%, #fc60d8 100%);
 		// border: 3px solid #fff;
 	}

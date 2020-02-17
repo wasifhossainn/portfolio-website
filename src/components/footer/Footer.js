@@ -29,6 +29,11 @@ const Footer = () => {
 						<img alt="" className="footer-file" src={Resume} />
 					</a>
 				</div>
+
+				<div className="footer-text">
+					<p>Copyright © Wasif Hossain</p>
+					<p> Credit to Ameli Lin for Background Image</p>
+				</div>
 			</div>
 		</React.Fragment>
 	);

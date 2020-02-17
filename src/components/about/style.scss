@@ -9,6 +9,7 @@
 
 .divider {
 	z-index: 50;
+	width: 100vw;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
 	position: absolute;
@@ -26,7 +27,7 @@
 }
 
 .aboutHeading {
-	margin-top: 425px;
+	margin-top: 350px;
 	margin-left: 40px;
 	color: #fff;
 	position: absolute;
@@ -40,7 +41,7 @@
 
 .about-section-1 {
 	color: #fff;
-	margin-top: 620px;
+	margin-top: 580px;
 	padding-bottom: 20px;
 	margin-left: 40px;
 	font-weight: bold;

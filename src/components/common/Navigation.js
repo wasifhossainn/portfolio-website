@@ -12,7 +12,7 @@ class Navigation extends Component {
 		super(props);
 
 		this.state = {
-			open: false,
+			close: true,
 			prevScrollpos: window.pageYOffset,
 			visible: true
 		};
@@ -20,14 +20,12 @@ class Navigation extends Component {
 	}
 
 	// Open SideBar
-	menuButton() {
-		const { open } = this.state;
+	menuButton = () => {
+		const { close } = this.state;
 		this.setState({
-			open: !open
+			close: !close
 		});
-
-		console.log('Open');
-	}
+	};
 
 	// Adds an event listener when the component is mount.
 	componentDidMount() {
@@ -97,7 +95,7 @@ class Navigation extends Component {
 
 				<div
 					className={classnames('sidebar--hidden', {
-						sidebar: this.state.open
+						sidebar: this.state.close && this.state.visible
 					})}
 				>
 					<SideBar />

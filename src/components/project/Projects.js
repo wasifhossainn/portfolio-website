@@ -19,7 +19,9 @@ const Projects = () => {
 			<div className="projects-content" id="Project">
 				<h1 className="projectHeading">PROJECTS</h1>
 
-				<Slider />
+				<div className="slider-scale">
+					<Slider />
+				</div>
 			</div>
 		</React.Fragment>
 	);
