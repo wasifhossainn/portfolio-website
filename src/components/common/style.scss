@@ -10,13 +10,12 @@
 	padding-left: 10px;
 	width: -webkit-fill-available;
 	width: -moz-available;
-	animation: slidedown 1s;
-
-	transition: top 0.6s;
+	animation: slidedown 2s;
+	transition: top 3s ease;
 }
 
 .navbar--hidden {
-	top: -1000px;
+	top: -85px;
 }
 
 .sidebar--hidden {

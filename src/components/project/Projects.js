@@ -10,16 +10,20 @@ import './style.scss';
 const Projects = () => {
 	return (
 		<React.Fragment>
-			<img alt="" className="codingboy" src={CodingBoy} />
-			<img alt="" className="divider" src={Divider} />
-
-			<img alt="" className="monitor" src={Monitor} />
-
 			<div className="projects-content" id="Project">
-				<h1 className="projectHeading">PROJECTS</h1>
+				<img alt="" className="divider" src={Divider} />
 
-				<div className="slider-scale">
-					<Slider />
+				<div className="project-wrapper">
+					<h1 className="projectHeading">PROJECTS</h1>
+
+					<img alt="" className="codingboy" src={CodingBoy} />
+				</div>
+
+				<div className="monitor-wrapper">
+					<img alt="" className="monitor" src={Monitor} />
+					<div className="slider-scale">
+						<Slider />
+					</div>
 				</div>
 			</div>
 		</React.Fragment>

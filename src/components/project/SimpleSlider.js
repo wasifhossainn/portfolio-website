@@ -34,24 +34,27 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img  alt="" src={carGame} className="front" />
+								<img alt="" src={carGame} className="front" />
 							</div>
 							<div className="flip-card-back">
-								<h1>CAR RUSH</h1>
-								<p>
-									Side Project I worked on using Python 3.4, where you have to dodge incoming cars by using arrow keys.{' '}
-									<br /> Game also has additional functionalities such as menu, music, instruction and high score.
-								</p>
-								<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn/carRush">
-									<img alt="" className="gitclick" src={Github} />
-								</a>
+								<div className="description-column">
+									<h1>CAR RUSH</h1>
+									<p>
+										Side Project I worked on using Python 3.4, where you have to dodge incoming cars by using arrow
+										keys. <br /> Game also has additional functionalities such as menu, music, instruction and high
+										score.
+									</p>
+									<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn/carRush">
+										<img alt="" src={Github} className="gitclick" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img  alt=""  src={SpaceInvaders} className="front" />
+								<img alt="" src={SpaceInvaders} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>EARTH X ALIENS</h1>
@@ -74,7 +77,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img  alt="" src={OneVice} className="front" />
+								<img alt="" src={OneVice} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>OneVice</h1>
@@ -82,7 +85,7 @@ export default class SimpleSlider extends Component {
 									University Project working in a team, I worked as a full-stack developer using Java, XML and Firebase
 									Database to create the design and functionalities. OneVice, is an e-commerce application that allows
 									users to be able to purchase and sell electronic devices online. There are also additional
-									functionalities such as viewing categories of products, recommendations and customising profile.
+									functionalities such as recommendations and customising profile.
 								</p>
 								<a
 									rel="noopener noreferrer"
@@ -98,7 +101,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img  alt="" src={ezyDonate} className="front" />
+								<img alt="" src={ezyDonate} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>ezyDonate</h1>
@@ -117,7 +120,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img  alt=""  src={everNoteApp} className="front" />
+								<img alt="" src={everNoteApp} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>EverNote App</h1>
@@ -155,7 +158,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img  alt=""  src={ezyDonatePromo} className="front" />
+								<img alt="" src={ezyDonatePromo} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>ezyDonate Promo</h1>
@@ -179,7 +182,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img  alt="" src={Algorithms} className="front" />
+								<img alt="" src={Algorithms} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1>Algorithms App</h1>
@@ -199,7 +202,7 @@ export default class SimpleSlider extends Component {
 					<div className="flip-card">
 						<div className="flip-card-inner">
 							<div className="flip-card-front">
-								<img  alt=""  src={ePortfolio} className="front" />
+								<img alt="" src={ePortfolio} className="front" />
 							</div>
 							<div className="flip-card-back">
 								<h1> E-Portfolio Website</h1>

@@ -13,20 +13,21 @@ import './style.scss';
 const Footer = () => {
 	return (
 		<React.Fragment>
-			<img alt="" className="divider" src={Divider} />
 			<div className="footer" id="Footer">
+				<img alt="" className="divider" src={Divider} />
+
 				<div className="footer-bar-container">
 					<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn">
-						<img alt="" className="footer-github" src={Github} />
+						<img className="footer-item" alt="" src={Github} />
 					</a>
 					<a alt="" rel="noopener noreferrer" target="_blank" href="https://au.linkedin.com/in/wasif-hossain-b4398115a">
-						<img alt="" className="footer-linkedin" src={LinkedIn} />
+						<img className="footer-item" alt="" src={LinkedIn} />
 					</a>
 					<a alt="" rel="noopener noreferrer" target="_blank" href="mailto:wasif.hossain@hotmail.com">
-						<img alt="" className="footer-email" src={Email} />
+						<img className="footer-item" alt="" src={Email} />
 					</a>
 					<a alt="" rel="noopener noreferrer" target="_blank" href={PDF}>
-						<img alt="" className="footer-file" src={Resume} />
+						<img className="footer-item" alt="" src={Resume} />
 					</a>
 				</div>
 

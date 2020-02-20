@@ -1,36 +1,52 @@
 .skill-content {
-	height: 130vh;
+	// height: 130vh;
 	z-index: 20;
+	width: 100%;
 	max-width: 100% !important;
-
+	position: relative;
 	overflow-x: hidden !important;
 	overflow-y: hidden !important;
 	background-image: linear-gradient(to top, #55c1f9 -30%, #535eff 100%);
 }
 
 .progress-bar-container {
-	margin-right: 10px;
 	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding-bottom: 50px;
 	align-items: center;
 	justify-content: center;
 }
 
+.divider {
+	z-index: 50;
+	width: 100%;
+	z-index: 50;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	// position: absolute;
+	display: block;
+}
+
 .skillHeading {
-	margin-top: 350px;
+	margin-top: 50px;
+	z-index: 60;
 	margin-left: 40px;
+	display: block;
 	color: #fff;
-	position: absolute;
 	font-weight: bold;
 	font-family: "Segoe UI";
 	font-size: 100px;
 	max-width: 100% !important;
-	border-bottom: 10px solid #11f4fc;
+	text-decoration: underline;
+	text-decoration-color: #11f4fc;
+	text-underline-position: under;
 	padding-bottom: 5px;
 }
 
 .skill-section-1 {
 	color: #fff;
-	margin-top: 520px;
+	margin-top: 80px;
 	padding-bottom: 20px;
 	margin-left: 40px;
 	font-weight: bold;
@@ -39,9 +55,7 @@
 }
 
 .team {
-	margin-top: 380px;
-	position: sticky;
-	position: -webkit-sticky;
+	margin-top: 50px;
 	z-index: 60;
 	right: 100px;
 	max-width: 100% !important;
@@ -61,7 +75,7 @@
 	 * This fixes an issue where the CircularProgressbar svg has
 	 * 0 width inside a "display: flex" container, and thus not visible.
 	 */
-	width: 20vh;
+	width: 10%;
 	padding-bottom: 20px;
 	/*
 	 * This fixes a centering issue with CircularProgressbarWithChildren:
@@ -77,8 +91,8 @@
 }
 
 .progress-bar {
-	margin-top: 130px;
-	margin-left: 100px;
+	top: 50px;
+	padding: 50px;
 }
 
 .CircularProgressbar .CircularProgressbar-trail {
@@ -185,88 +199,131 @@
 	font-family: "Segoe UI";
 }
 
-@media (max-width: 1850px) {
-	.skillHeading {
-		margin-top: 300px;
-		margin-left: 20px;
-		color: #fff;
-		// position: relative;
-		font-weight: bold;
-		font-family: "Segoe UI";
-		font-size: 95px;
-		max-width: 100% !important;
-		border-bottom: 10px solid #11f4fc;
-		padding-bottom: 5px;
-	}
+// @media (max-width: 1850px) {
+// 	.skillHeading {
+// 		margin-top: 300px;
+// 		margin-left: 20px;
+// 		color: #fff;
+// 		// position: relative;
+// 		font-weight: bold;
+// 		font-family: "Segoe UI";
+// 		font-size: 95px;
+// 		max-width: 100% !important;
+// 		border-bottom: 10px solid #11f4fc;
+// 		padding-bottom: 5px;
+// 	}
+// 	.team {
+// 		margin-top: 10px;
+// 		z-index: 60;
+// 		height: auto;
+// 		max-width: 35vh !important;
+// 		overflow-x: hidden !important;
+// 		position: absolute;
+// 		display: block;
+// 	}
+
+// 	.skill-content {
+// 		height: 100%;
+// 		z-index: 20;
+// 		max-width: 100% !important;
+// 		overflow-x: hidden !important;
+// 		overflow-y: hidden !important;
+// 		background-image: linear-gradient(to top, #55c1f9 -30%, #535eff 100%);
+// 	}
+
+// 	.skill-section-1 {
+// 		color: #fff;
+// 		margin-top: 480px;
+// 		margin-left: 40px;
+// 		font-weight: bold;
+// 		font-size: 30px;
+// 		font-family: "Segoe UI";
+// 	}
+
+// 	.progress-bar {
+// 		margin-top: 100px;
+// 		margin-left: 150px;
+// 	}
+
+// 	.progress-bar-container {
+// 		padding-right: 150px;
+// 		display: flex;
+// 		justify-content: center;
+// 		flex-direction: column;
+// 		align-items: center;
+// 	}
+// }
+
+@media (max-width: 1800px) {
 	.team {
-		margin-top: 10px;
+		margin-top: 0px;
 		z-index: 60;
-		height: auto;
-		max-width: 35vh !important;
+		right: 40px;
+		max-width: 20% !important;
 		overflow-x: hidden !important;
 		position: absolute;
 		display: block;
 	}
 
-	.skill-content {
-		height: 100%;
-		z-index: 20;
-		max-width: 100% !important;
-		overflow-x: hidden !important;
-		overflow-y: hidden !important;
-		background-image: linear-gradient(to top, #55c1f9 -30%, #535eff 100%);
-	}
-
-	.skill-section-1 {
-		color: #fff;
-		margin-top: 480px;
-		margin-left: 40px;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Segoe UI";
-	}
-
-	.progress-bar {
-		margin-top: 100px;
-		margin-left: 150px;
-	}
-
 	.progress-bar-container {
-		padding-right: 150px;
+		// padding-right: 150px;
 		display: flex;
 		justify-content: center;
-		flex-direction: column;
+		flex-direction: row;
 		align-items: center;
+	}
+
+	.CircularProgressbar {
+		/*
+	 * This fixes an issue where the CircularProgressbar svg has
+	 * 0 width inside a "display: flex" container, and thus not visible.
+	 */
+		width: 40%;
+		padding-bottom: 20px;
+		/*
+	 * This fixes a centering issue with CircularProgressbarWithChildren:
+	 * https://github.com/kevinsqi/react-circular-progressbar/issues/94
+	 */
+		vertical-align: middle;
 	}
 }
 
 @media (max-width: 910px) {
 	.skillHeading {
-		margin-top: 450px;
-		margin-left: 20px;
-		color: #fff;
-		// position: relative;
-		font-weight: bold;
-		font-family: "Segoe UI";
-		font-size: 10vw;
-		max-width: 100% !important;
-		border-bottom: 10px solid #11f4fc;
-		padding-bottom: 5px;
-	}
-	.team {
+		padding-top: 250px;
 		margin-top: 100px;
 		z-index: 60;
-		height: auto;
-		max-width: 35vh !important;
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+		font-family: "Segoe UI";
+		margin-left: 0px;
+		// position: relative;
+		font-size: 35px;
+		max-width: 100% !important;
+		text-decoration: underline;
+		text-decoration-color: #54ffbf;
+		padding-bottom: 5px;
+		text-underline-position: under;
+	}
+	.team {
+		top: 80px;
+		z-index: 70;
+		max-width: 60% !important;
+		margin: 0 auto;
+
+		left: 0px;
+		right: 0px;
 		overflow-x: hidden !important;
 		position: absolute;
 		display: block;
 	}
 
 	.skill-content {
-		height: 100%;
 		z-index: 20;
+		width: 100%;
 		max-width: 100% !important;
+		position: relative;
 		overflow-x: hidden !important;
 		overflow-y: hidden !important;
 		background-image: linear-gradient(to top, #55c1f9 -30%, #535eff 100%);
@@ -274,23 +331,38 @@
 
 	.skill-section-1 {
 		color: #fff;
-		margin-top: 620px;
-		margin-left: 40px;
+		margin-top: 30px;
+		padding-bottom: 20px;
+		margin-left: 20px;
 		font-weight: bold;
 		font-size: 30px;
 		font-family: "Segoe UI";
 	}
 
 	.progress-bar {
-		margin-top: 100px;
-		margin-left: 150px;
+		margin-top: 50px;
+		// margin-left: 150px;
 	}
 
 	.progress-bar-container {
-		padding-right: 150px;
+		// padding-right: 150px;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.CircularProgressbar {
+		/*
+	 * This fixes an issue where the CircularProgressbar svg has
+	 * 0 width inside a "display: flex" container, and thus not visible.
+	 */
+		width: 35%;
+		padding-bottom: 20px;
+		/*
+	 * This fixes a centering issue with CircularProgressbarWithChildren:
+	 * https://github.com/kevinsqi/react-circular-progressbar/issues/94
+	 */
+		vertical-align: middle;
 	}
 }

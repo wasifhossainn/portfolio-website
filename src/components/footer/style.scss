@@ -1,10 +1,5 @@
-.bottom {
-	height: 100vh;
-	background-color: mediumturquoise;
-}
-
 .footer {
-	height: 80vh;
+	// height: 80vh;
 	z-index: 20;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -12,323 +7,172 @@
 	background-image: linear-gradient(to top, #55c1f9 10%, #40aeaa 60%);
 }
 
-.footer-github {
-	margin-top: 450px;
-	margin-left: 200px;
-	z-index: 60;
-	max-width: 100% !important;
-	overflow-x: hidden !important;
-	position: absolute;
-	display: block;
-}
-
-.footer-linkedin {
-	margin-top: 450px;
-	margin-left: 650px;
-	z-index: 60;
-	max-width: 100% !important;
-	overflow-x: hidden !important;
-	position: absolute;
-	display: block;
-}
-
-.footer-email {
-	margin-top: 450px;
-	margin-left: 1100px;
-	z-index: 60;
-	max-width: 100% !important;
-	overflow-x: hidden !important;
-	position: absolute;
-	display: block;
-}
-
-.footer-file {
-	margin-top: 430px;
-	margin-left: 1550px;
-	z-index: 60;
-	max-width: 100% !important;
-	overflow-x: hidden !important;
-	position: absolute;
-	display: block;
-}
-
 .footer-text {
-	position: absolute;
-	margin-top: 700px;
+	// position: absolute;
+	// margin-top: 700px;
 	// background-color: mediumaquamarine;
 	// color: white;
-	display: block;
 
+	padding-top: 50px;
+	padding-bottom: 20px;
 	color: #fff;
 	font-family: 'raleway';
 	font-weight: bold;
-	left: 50%;
-	transform: translate(-50%, -50%);
-
 	text-align: center;
 	overflow-x: hidden !important;
 }
 
-@media (max-width: 1850px) {
-	.footer {
-		height: 150vh;
-		z-index: 20;
-		max-width: 100% !important;
-		overflow-x: hidden !important;
-		overflow-y: hidden !important;
-		background-image: linear-gradient(to top, #55c1f9 10%, #40aeaa 60%);
-	}
-	.footer-github {
-		margin-top: 100px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
+.footer-bar-container {
+	display: flex;
+	align-items: flex-end;
+	width: 60%;
+	padding-top: 50px;
+	margin: 0 auto;
+	justify-content: space-between;
+	flex-direction: row;
+}
 
-	.footer-linkedin {
-		margin-top: 300px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
+// .footer-github {
+// 	margin-top: 450px;
+// 	margin-left: 200px;
+// 	z-index: 60;
+// 	max-width: 100% !important;
+// 	overflow-x: hidden !important;
+// 	position: absolute;
+// 	display: block;
+// }
 
-	.footer-email {
-		margin-top: 500px;
-		margin-left: 150px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
+// .footer-linkedin {
+// 	margin-top: 450px;
+// 	margin-left: 650px;
+// 	z-index: 60;
+// 	max-width: 100% !important;
+// 	overflow-x: hidden !important;
+// 	position: absolute;
+// 	display: block;
+// }
 
-	.footer-file {
-		margin-top: 700px;
-		margin-left: 190px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-	.footer-bar-container {
-		margin-top: 200px;
-		padding-right: 500px;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-	}
+// .footer-email {
+// 	margin-top: 450px;
+// 	margin-left: 1100px;
+// 	z-index: 60;
+// 	max-width: 100% !important;
+// 	overflow-x: hidden !important;
+// 	position: absolute;
+// 	display: block;
+// }
+
+// .footer-file {
+// 	margin-top: 430px;
+// 	margin-left: 1550px;
+// 	z-index: 60;
+// 	max-width: 100% !important;
+// 	overflow-x: hidden !important;
+// 	position: absolute;
+// 	display: block;
+// }
+
+// @media (max-width: 1850px) {
+// 	.footer {
+// 		// height: 80vh;
+// 		z-index: 20;
+// 		max-width: 100% !important;
+// 		overflow-x: hidden !important;
+// 		overflow-y: hidden !important;
+// 		background-image: linear-gradient(to top, #55c1f9 10%, #40aeaa 60%);
+// 	}
+
+// 	.footer-text {
+// 		// position: absolute;
+// 		// margin-top: 700px;
+// 		// background-color: mediumaquamarine;
+// 		// color: white;
+
+// 		padding-top: 30px;
+// 		padding-bottom: 20px;
+// 		color: #fff;
+// 		font-family: 'raleway';
+// 		font-weight: bold;
+// 		text-align: center;
+// 		overflow-x: hidden !important;
+// 	}
+
+// 	.footer-bar-container {
+// 		display: flex;
+// 		align-items: center;
+// 		// width: 0%;
+// 		padding-top: 50px;
+// 		justify-content: space-around;
+// 		flex-direction: column;
+// 	}
+
+// 	.footer-item {
+// 		padding: 40px;
+// 	}
+// }
+
+@media (max-width: 1800px) {
 	.footer-text {
-		position: absolute;
-		margin-top: 920px;
+		// position: absolute;
+		// margin-top: 700px;
 		// background-color: mediumaquamarine;
 		// color: white;
-		display: block;
 
+		padding-top: 50px;
+		padding-bottom: 20px;
 		color: #fff;
 		font-family: 'raleway';
 		font-weight: bold;
-		left: 50%;
-		transform: translate(-50%, -50%);
-
 		text-align: center;
 		overflow-x: hidden !important;
 	}
-}
 
-@media (max-width: 991px) {
-	.footer {
-		height: 100vh;
-		z-index: 20;
-		max-width: 100% !important;
-		overflow-x: hidden !important;
-		overflow-y: hidden !important;
-		background-image: linear-gradient(to top, #55c1f9 10%, #40aeaa 60%);
-	}
-	.footer-github {
-		margin-top: 100px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.footer-linkedin {
-		margin-top: 300px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.footer-email {
-		margin-top: 500px;
-		margin-left: 150px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.footer-file {
-		margin-top: 700px;
-		margin-left: 190px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
 	.footer-bar-container {
-		margin-top: 50px;
-		padding-right: 500px;
 		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
+		align-items: flex-end;
+		width: 80%;
+		padding-top: 50px;
+		margin: 0 auto;
+		justify-content: space-between;
+		flex-direction: row;
 	}
 }
 
 @media (max-width: 991px) {
 	.footer {
-		height: 150vh;
+		// height: 80vh;
 		z-index: 20;
 		max-width: 100% !important;
 		overflow-x: hidden !important;
 		overflow-y: hidden !important;
 		background-image: linear-gradient(to top, #55c1f9 10%, #40aeaa 60%);
 	}
-	.footer-github {
-		margin-top: 100px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
+
+	.footer-text {
+		// position: absolute;
+		// margin-top: 700px;
+		// background-color: mediumaquamarine;
+		// color: white;
+
+		padding-top: 30px;
+		padding-bottom: 20px;
+		color: #fff;
+		font-family: 'raleway';
+		font-weight: bold;
+		text-align: center;
 		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
 	}
 
-	.footer-linkedin {
-		margin-top: 300px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.footer-email {
-		margin-top: 500px;
-		margin-left: 150px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.footer-file {
-		margin-top: 700px;
-		margin-left: 190px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
 	.footer-bar-container {
-		margin-top: 100px;
-		padding-right: 500px;
 		display: flex;
-		justify-content: center;
-		flex-direction: column;
 		align-items: center;
-	}
-}
-
-@media (max-width: 411px) {
-	.footer {
-		height: 150vh;
-		z-index: 20;
-		max-width: 100% !important;
-		overflow-x: hidden !important;
-		overflow-y: hidden !important;
-		background-image: linear-gradient(to top, #55c1f9 10%, #40aeaa 60%);
-	}
-	.footer-github {
-		margin-top: 100px;
-		margin-left: 140px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.footer-linkedin {
-		margin-top: 300px;
-		margin-left: 140px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.footer-email {
-		margin-top: 500px;
-		margin-left: 100px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.footer-file {
-		margin-top: 700px;
-		margin-left: 145px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-	.footer-bar-container {
-		margin-top: 100px;
-		padding-right: 500px;
-		display: flex;
-		justify-content: center;
+		// width: 0%;
+		padding-top: 50px;
+		justify-content: space-around;
 		flex-direction: column;
-		align-items: center;
+	}
+
+	.footer-item {
+		padding: 40px;
 	}
 }

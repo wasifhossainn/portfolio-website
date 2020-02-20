@@ -1,6 +1,9 @@
 .content {
-	height: 180vh;
+	// height: 180vh;
 	z-index: 20;
+	padding-bottom: 20px;
+	position: relative;
+	width: 100%;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
 	overflow-y: hidden !important;
@@ -9,16 +12,17 @@
 
 .divider {
 	z-index: 50;
-	width: 100vw;
+	width: 100%;
+	z-index: 50;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
-	position: absolute;
+	// position: absolute;
 	display: block;
 }
 
 .techboy {
-	margin-top: 80px;
-	z-index: 60;
+	top: 50px;
+	z-index: 70;
 	right: 50px;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -27,26 +31,35 @@
 }
 
 .aboutHeading {
-	margin-top: 350px;
+	margin-top: 50px;
+	z-index: 60;
 	margin-left: 40px;
+	display: block;
 	color: #fff;
-	position: absolute;
 	font-weight: bold;
 	font-family: "Segoe UI";
 	font-size: 100px;
 	max-width: 100% !important;
-	border-bottom: 10px solid #fc60d8;
+	text-decoration: underline;
+	text-decoration-color: #fc60d8;
+
+	text-underline-position: under;
 	padding-bottom: 5px;
+
+	// position: absolute;
+	// border-bottom: 10px solid #fc60d8;
 }
 
 .about-section-1 {
 	color: #fff;
-	margin-top: 580px;
+	margin-top: 80px;
 	padding-bottom: 20px;
 	margin-left: 40px;
 	font-weight: bold;
 	font-size: 30px;
 	font-family: "Segoe UI";
+
+	// position: relative;
 }
 
 .about-section-2 {
@@ -68,35 +81,43 @@
 }
 
 .socialHeading {
-	margin-top: 50px;
+	margin-top: 100px;
+	z-index: 60;
 	margin-left: 40px;
+	display: block;
 	color: #fff;
-	position: absolute;
 	font-weight: bold;
 	font-family: "Segoe UI";
 	font-size: 100px;
 	max-width: 100% !important;
-	border-bottom: 10px solid #54ffbf;
+	text-decoration: underline;
+	text-decoration-color: #54ffbf;
 	padding-bottom: 5px;
+
+	text-underline-position: under;
 }
 
 .chatbubble {
-	margin-top: 1100px;
-	position: sticky;
-	position: -webkit-sticky;
+	// margin-top: 50px;
 	z-index: 60;
-	right: 200px;
+	margin-right: 100px;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
-	position: absolute;
-	display: block;
+	position: relative;
+	// display: block;
+}
+
+.social-heading-container {
+	display: flex;
+	align-items: flex-end;
+	width: 85%;
+	justify-content: space-between;
+	flex-direction: row;
 }
 
 .github {
-	margin-top: 350px;
-	margin-left: 200px;
-	position: sticky;
-	position: -webkit-sticky;
+	// margin-top: 350px;
+	// margin-left: 200px;
 	z-index: 60;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -105,9 +126,9 @@
 }
 
 .github-txt {
+	// margin-top: 550px;
+	// margin-left: 215px;
 	text-decoration: none;
-	margin-top: 550px;
-	margin-left: 215px;
 	color: #fff;
 	font-weight: bold;
 	display: inline-block;
@@ -116,10 +137,8 @@
 }
 
 .linkedin {
-	margin-top: 350px;
-	margin-left: 650px;
-	position: sticky;
-	position: -webkit-sticky;
+	// margin-top: 350px;
+	// margin-left: 650px;
 	z-index: 60;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -128,7 +147,7 @@
 }
 
 .linkedin-txt {
-	margin-left: 350px;
+	// margin-left: 350px;
 	color: #fff;
 	font-weight: bold;
 	font-size: 30px;
@@ -138,10 +157,8 @@
 }
 
 .email {
-	margin-top: 350px;
-	margin-left: 1100px;
-	position: sticky;
-	position: -webkit-sticky;
+	// margin-top: 350px;
+	// margin-left: 1100px;
 	z-index: 60;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -150,7 +167,7 @@
 }
 
 .email-txt {
-	margin-left: 395px;
+	// margin-left: 395px;
 	color: #fff;
 	font-weight: bold;
 	display: inline-block;
@@ -160,10 +177,8 @@
 }
 
 .resume {
-	margin-top: 330px;
-	margin-left: 1550px;
-	position: sticky;
-	position: -webkit-sticky;
+	// margin-top: 330px;
+	// margin-left: 1550px;
 	z-index: 60;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -172,7 +187,7 @@
 }
 
 .resume-txt {
-	margin-left: 310px;
+	// margin-left: 310px;
 	display: inline-block;
 	text-decoration: none;
 	color: #fff;
@@ -181,169 +196,60 @@
 	font-family: "Raleway";
 }
 
-@media (max-width: 1850px) {
-	.content {
-		height: 100%;
-		z-index: 20;
-		max-width: 100% !important;
-		overflow-x: hidden !important;
-		overflow-y: hidden !important;
-		background-image: linear-gradient(to top, #fc60d8 10%, #1b206a 60%);
-	}
+.social-container {
+	max-width: 800px;
+	width: 100%;
+	padding-top: 50px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
 
+.flex-item {
+	padding: 70px;
+}
+
+.icon-column {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icon-txt {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 10px;
+	font-family: "Raleway";
+}
+
+@media (max-width: 1800px) {
 	.techboy {
-		margin-top: 10px;
-		z-index: 60;
-		height: auto;
-		max-width: 50vh !important;
+		top: 10px;
+		z-index: 70;
+		right: 50px;
+		max-width: 45% !important;
 		overflow-x: hidden !important;
-		// position: absolute;
+		position: absolute;
 		display: block;
 	}
-
-	.aboutHeading {
-		margin-top: 300px;
-		margin-left: 50px;
-		color: #fff;
-		// position: relative;
-		font-weight: bold;
-		font-family: "Segoe UI";
-		font-size: 100px;
-		max-width: 100% !important;
-		border-bottom: 10px solid #fc60d8;
-		padding-bottom: 5px;
-	}
-
-	.socialHeading {
-		margin-top: 85px;
-		margin-left: 90px;
-		color: #fff;
-		// position: relative;
-		font-weight: bold;
-		font-family: "Segoe UI";
-		font-size: 100px;
-		max-width: 100% !important;
-		border-bottom: 10px solid #54ffbf;
-		padding-bottom: 5px;
-	}
-
-	.about-section-1 {
-		color: #fff;
-		margin-top: 500px;
-		padding-bottom: 20px;
-		margin-left: 40px;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Segoe UI";
-	}
-
-	.chatbubble {
-		display: none;
-	}
-
-	.github {
-		margin-top: 250px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.github-txt {
-		text-decoration: none;
-		margin-top: 400px;
-		margin-left: 200px;
-		color: #fff;
-		font-weight: bold;
-		// display: ;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
-
-	.linkedin {
-		margin-top: 500px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.linkedin-txt {
-		text-decoration: none;
-		margin-top: 200px;
-		margin-left: 190px;
-		color: #fff;
-		font-weight: bold;
-		// display: ;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
-
-	.email {
-		margin-top: 800px;
-		margin-left: 150px;
-		z-index: 60;
-		height: auto;
-		// max-width: 100% !important;
-		overflow-x: hidden !important;
-		// position: relative;
-		display: block;
-	}
-
-	.email-txt {
-		text-decoration: none;
-		margin-top: 230px;
-		margin-left: 210px;
-		color: #fff;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
-
-	.resume {
-		margin-top: 1100px;
-		margin-left: 190px;
-		z-index: 60;
-		height: auto;
-		overflow-x: hidden !important;
-		display: block;
-	}
-
-	.resume-txt {
-		text-decoration: none;
-		margin-top: 260px;
-		margin-left: 190px;
-		color: #fff;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
-	.social-container {
-		margin-top: 50px;
-		padding-right: 550px;
+	.social-heading-container {
 		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-	}
-	.container-txt {
-		padding-right: 250px;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
+		align-items: flex-end;
+		width: 100%;
+		justify-content: space-between;
+		flex-direction: row;
 	}
 }
 
 @media (max-width: 910px) {
 	.content {
-		height: 100%;
+		// height: 100%;
 		z-index: 20;
 		max-width: 100% !important;
 		overflow-x: hidden !important;
@@ -351,58 +257,116 @@
 		background-image: linear-gradient(to top, #fc60d8 10%, #1b206a 60%);
 	}
 
-	.techboy {
-		margin-top: 10px;
-		z-index: 60;
-		height: auto;
+	.social-container {
+		max-width: 800px;
+		width: 100%;
+		padding-top: 20px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		align-items: center;
+	}
 
-		max-width: 45vh !important;
+	.icon-txt {
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+		font-size: 30px;
+		padding-bottom: 70px;
+		font-family: "Raleway";
+	}
+
+	.flex-item {
+		padding: 30px;
+	}
+
+	.techboy {
+		top: 10px;
+		z-index: 70;
+		max-width: 70% !important;
+		margin: 0 auto;
+
+		left: 0px;
+		right: 0px;
 		overflow-x: hidden !important;
 		position: absolute;
 		display: block;
+		// display: flex;
+		// padding-bottom: 50px;
 	}
 
 	.aboutHeading {
-		margin-top: 350px;
-		margin-left: 110px;
+		padding-top: 100px;
+		margin-top: 100px;
+		z-index: 60;
+		margin-left: 0px;
+		text-align: center;
+		display: block;
 		color: #fff;
 		font-weight: bold;
 		font-family: "Segoe UI";
-		font-size: 10vw;
+		// position: relative;
+		font-size: 50px;
 		max-width: 100% !important;
-		border-bottom: 10px solid #fc60d8;
+		text-decoration: underline;
+		text-decoration-color: #fc60d8;
 		padding-bottom: 5px;
+		text-underline-position: under;
 	}
 
 	.socialHeading {
-		margin-top: 85px;
-		margin-left: 90px;
+		margin-top: 100px;
+		z-index: 60;
+		text-align: center;
 		color: #fff;
 		font-weight: bold;
 		font-family: "Segoe UI";
-		font-size: 10vw;
+		margin-left: 0px;
+		// position: relative;
+		font-size: 50px;
 		max-width: 100% !important;
-
-		border-bottom: 10px solid #54ffbf;
+		text-decoration: underline;
+		text-decoration-color: #54ffbf;
 		padding-bottom: 5px;
+		text-underline-position: under;
 	}
 
 	.about-section-1 {
 		color: #fff;
-		margin-top: 500px;
+		margin-top: 30px;
 		padding-bottom: 20px;
-		margin-left: 40px;
+		margin-left: 20px;
 		font-weight: bold;
 		font-size: 30px;
 		font-family: "Segoe UI";
 	}
 
+	.about-section-2 {
+		color: #fff;
+		margin-top: 30px;
+		padding-bottom: 20px;
+		margin-left: 20px;
+		font-weight: bold;
+		font-size: 30px;
+		font-family: "Segoe UI";
+	}
+
+	.about-section-3 {
+		color: #fff;
+		margin-top: 30px;
+		padding-bottom: 20px;
+		margin-left: 20px;
+		font-weight: bold;
+		font-size: 30px;
+		font-family: "Segoe UI";
+	}
 	.chatbubble {
 		display: none;
 	}
 
 	.github {
-		margin-top: 250px;
+		margin-top: 230px;
 		margin-left: 180px;
 		z-index: 60;
 		height: auto;
@@ -479,167 +443,207 @@
 		font-family: "Raleway";
 	}
 	.social-container {
-		margin-top: 50px;
-		padding-right: 550px;
+		// margin-top: 50px;
+		max-width: 800px;
+		width: 100%;
+		margin: 0 auto;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
 	}
-	.container-txt {
-		padding-right: 190px;
+	// .container-txt {
+	// 	padding-right: 190px;
+	// 	display: flex;
+	// 	justify-content: center;
+	// 	flex-direction: column;
+	// 	align-items: center;
+	// }
+	.social-heading-centre {
+		// max-width: 800px;
+		// width: 100%;
+		margin: 0 auto;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
+	}
+	.social-heading-container {
+		display: flex;
+		align-items: flex-end;
+		width: 100%;
+		justify-content: space-between;
+		flex-direction: row;
 	}
 }
 
-@media (max-width: 411px) {
-	.techboy {
-		margin-top: 10px;
-		z-index: 60;
-		height: auto;
+// @media (max-width: 1850px) {
+// 	.content {
+// 		height: 100%;
+// 		z-index: 20;
+// 		max-width: 100% !important;
+// 		overflow-x: hidden !important;
+// 		overflow-y: hidden !important;
+// 		background-image: linear-gradient(to top, #fc60d8 10%, #1b206a 60%);
+// 	}
 
-		max-width: 45vh !important;
-		overflow-x: hidden !important;
-		position: absolute;
-		display: block;
-	}
+// 	.techboy {
+// 		margin-top: 10px;
+// 		z-index: 60;
+// 		height: auto;
+// 		max-width: 50% !important;
+// 		overflow-x: hidden !important;
+// 		// position: absolute;
+// 		display: block;
+// 	}
 
-	.aboutHeading {
-		margin-top: 350px;
-		margin-left: 110px;
-		color: #fff;
-		font-weight: bold;
-		font-family: "Segoe UI";
-		font-size: 10vw;
-		max-width: 100% !important;
-		border-bottom: 10px solid #fc60d8;
-		padding-bottom: 5px;
-	}
+// 	.aboutHeading {
+// 		margin-top: 50px;
+// 		z-index: 60;
+// 		margin-left: 40px;
+// 		display: block;
+// 		color: #fff;
+// 		font-weight: bold;
+// 		font-family: "Segoe UI";
+// 		font-size: 100px;
+// 		max-width: 100% !important;
+// 		text-decoration: underline;
+// 		text-decoration-color: #fc60d8;
+// 		padding-bottom: 5px;
+// 		text-underline-position: under;
+// 	}
 
-	.socialHeading {
-		margin-top: 85px;
-		margin-left: 90px;
-		color: #fff;
-		font-weight: bold;
-		font-family: "Segoe UI";
-		font-size: 10vw;
-		max-width: 100% !important;
+// 	.socialHeading {
+// 		margin-top: 100px;
+// 		z-index: 60;
+// 		margin-left: 40px;
+// 		display: block;
+// 		color: #fff;
+// 		font-weight: bold;
+// 		font-family: "Segoe UI";
+// 		font-size: 100px;
+// 		max-width: 100% !important;
+// 		text-decoration: underline;
 
-		border-bottom: 10px solid #54ffbf;
-		padding-bottom: 5px;
-	}
+// 		text-decoration-color: #54ffbf;
+// 		padding-bottom: 5px;
+// 		text-underline-position: under;
+// 	}
 
-	.about-section-1 {
-		color: #fff;
-		margin-top: 500px;
-		padding-bottom: 20px;
-		margin-left: 40px;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Segoe UI";
-	}
+// 	.about-section-1 {
+// 		color: #fff;
+// 		margin-top: 100px;
+// 		padding-bottom: 20px;
+// 		margin-left: 40px;
+// 		font-weight: bold;
+// 		font-size: 30px;
+// 		font-family: "Segoe UI";
+// 	}
 
-	.chatbubble {
-		display: none;
-	}
+// 	.chatbubble {
+// 		display: none;
+// 	}
 
-	.github {
-		margin-top: 250px;
+// 	.github {
+// 		margin-top: 250px;
+// 		margin-left: 180px;
+// 		z-index: 60;
+// 		height: auto;
+// 		// max-width: 100% !important;
+// 		overflow-x: hidden !important;
+// 		// position: relative;
+// 		display: block;
+// 	}
 
-		margin-left: 140px;
-		z-index: 60;
-		height: auto;
-		overflow-x: hidden !important;
-		display: block;
-	}
+// 	.github-txt {
+// 		text-decoration: none;
+// 		margin-top: 400px;
+// 		margin-left: 200px;
+// 		color: #fff;
+// 		font-weight: bold;
+// 		// display: ;
+// 		font-size: 30px;
+// 		font-family: "Raleway";
+// 	}
 
-	.github-txt {
-		text-decoration: none;
-		margin-top: 400px;
-		margin-left: 190px;
-		color: #fff;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
+// 	.linkedin {
+// 		margin-top: 500px;
+// 		margin-left: 180px;
+// 		z-index: 60;
+// 		height: auto;
+// 		// max-width: 100% !important;
+// 		overflow-x: hidden !important;
+// 		// position: relative;
+// 		display: block;
+// 	}
 
-	.linkedin {
-		margin-top: 500px;
+// 	.linkedin-txt {
+// 		text-decoration: none;
+// 		margin-top: 200px;
+// 		margin-left: 190px;
+// 		color: #fff;
+// 		font-weight: bold;
+// 		// display: ;
+// 		font-size: 30px;
+// 		font-family: "Raleway";
+// 	}
 
-		margin-left: 140px;
-		z-index: 60;
-		height: auto;
-		overflow-x: hidden !important;
-		display: block;
-	}
+// 	.email {
+// 		margin-top: 800px;
+// 		margin-left: 150px;
+// 		z-index: 60;
+// 		height: auto;
+// 		// max-width: 100% !important;
+// 		overflow-x: hidden !important;
+// 		// position: relative;
+// 		display: block;
+// 	}
 
-	.linkedin-txt {
-		text-decoration: none;
-		margin-top: 200px;
-		margin-left: 190px;
-		color: #fff;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
+// 	.email-txt {
+// 		text-decoration: none;
+// 		margin-top: 230px;
+// 		margin-left: 210px;
+// 		color: #fff;
+// 		font-weight: bold;
+// 		font-size: 30px;
+// 		font-family: "Raleway";
+// 	}
 
-	.email {
-		margin-top: 800px;
+// 	.resume {
+// 		margin-top: 1100px;
+// 		margin-left: 190px;
+// 		z-index: 60;
+// 		height: auto;
+// 		overflow-x: hidden !important;
+// 		display: block;
+// 	}
 
-		margin-left: 100px;
-		z-index: 60;
-		height: auto;
-		overflow-x: hidden !important;
-		display: block;
-	}
+// 	.resume-txt {
+// 		text-decoration: none;
+// 		margin-top: 260px;
+// 		margin-left: 190px;
+// 		color: #fff;
+// 		font-weight: bold;
+// 		font-size: 30px;
+// 		font-family: "Raleway";
+// 	}
 
-	.email-txt {
-		text-decoration: none;
-		margin-top: 230px;
-		margin-left: 185px;
-		color: #fff;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
+// 	.social-container {
+// 		// margin-top: 50px;
+// 		max-width: 800px;
+// 		width: 100%;
+// 		margin: 0 auto;
+// 		display: flex;
+// 		justify-content: center;
+// 		flex-direction: column;
+// 		align-items: center;
+// 	}
 
-	.resume {
-		margin-top: 1100px;
-
-		margin-left: 145px;
-
-		z-index: 60;
-		height: auto;
-		overflow-x: hidden !important;
-		display: block;
-	}
-
-	.resume-txt {
-		text-decoration: none;
-		margin-top: 260px;
-		margin-left: 190px;
-		color: #fff;
-		font-weight: bold;
-
-		font-size: 30px;
-		font-family: "Raleway";
-	}
-	.social-container {
-		margin-top: 50px;
-		padding-right: 550px;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-	}
-	.container-txt {
-		padding-right: 190px;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-	}
-}
+// 	.container-txt {
+// 		padding-right: 250px;
+// 		display: flex;
+// 		justify-content: center;
+// 		flex-direction: column;
+// 		align-items: center;
+// 	}
+// }
