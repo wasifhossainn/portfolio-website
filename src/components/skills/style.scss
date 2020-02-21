@@ -265,6 +265,22 @@
 		display: block;
 	}
 
+	.skillHeading {
+		margin-top: 50px;
+		z-index: 60;
+		margin-left: 40px;
+		display: block;
+		color: #fff;
+		font-weight: bold;
+		font-family: "Segoe UI";
+		font-size: 80px;
+		max-width: 100% !important;
+		text-decoration: underline;
+		text-decoration-color: #11f4fc;
+		text-underline-position: under;
+		padding-bottom: 5px;
+	}
+
 	.progress-bar-container {
 		// padding-right: 150px;
 		display: flex;
@@ -278,7 +294,7 @@
 	 * This fixes an issue where the CircularProgressbar svg has
 	 * 0 width inside a "display: flex" container, and thus not visible.
 	 */
-		width: 40%;
+		width: 50%;
 		padding-bottom: 20px;
 		/*
 	 * This fixes a centering issue with CircularProgressbarWithChildren:
@@ -288,7 +304,67 @@
 	}
 }
 
-@media (max-width: 910px) {
+@media (max-width: 1024px) {
+	.team {
+		top: 10px;
+		z-index: 70;
+		max-width: 35% !important;
+		margin: 0 auto;
+
+		left: 0px;
+		right: 0px;
+		overflow-x: hidden !important;
+		position: absolute;
+		display: block;
+	}
+
+	.skillHeading {
+		padding-top: 100px;
+		margin-top: 100px;
+		z-index: 60;
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+		font-family: "Segoe UI";
+		margin-left: 0px;
+		// position: relative;
+		font-size: 100px;
+		max-width: 100% !important;
+		text-decoration: underline;
+		text-decoration-color: #54ffbf;
+		padding-bottom: 5px;
+		text-underline-position: under;
+	}
+
+	.progress-bar {
+		margin-top: 50px;
+		// margin-left: 150px;
+	}
+
+	.progress-bar-container {
+		// padding-right: 150px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.CircularProgressbar {
+		/*
+	 * This fixes an issue where the CircularProgressbar svg has
+	 * 0 width inside a "display: flex" container, and thus not visible.
+	 */
+		width: 30%;
+		padding-bottom: 20px;
+		/*
+	 * This fixes a centering issue with CircularProgressbarWithChildren:
+	 * https://github.com/kevinsqi/react-circular-progressbar/issues/94
+	 */
+		vertical-align: middle;
+	}
+}
+
+@media (max-width: 768px) {
 	.skillHeading {
 		padding-top: 250px;
 		margin-top: 100px;
