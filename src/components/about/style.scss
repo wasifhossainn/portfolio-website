@@ -1,5 +1,4 @@
 .content {
-	// height: 180vh;
 	z-index: 20;
 	padding-bottom: 20px;
 	position: relative;
@@ -16,7 +15,6 @@
 	z-index: 50;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
-	// position: absolute;
 	display: block;
 }
 
@@ -37,17 +35,13 @@
 	display: block;
 	color: #fff;
 	font-weight: bold;
-	font-family: "Segoe UI";
+	font-family: 'Barlow';
 	font-size: 100px;
 	max-width: 100% !important;
 	text-decoration: underline;
 	text-decoration-color: #fc60d8;
-
 	text-underline-position: under;
 	padding-bottom: 5px;
-
-	// position: absolute;
-	// border-bottom: 10px solid #fc60d8;
 }
 
 .about-section-1 {
@@ -55,29 +49,36 @@
 	margin-top: 80px;
 	padding-bottom: 20px;
 	margin-left: 40px;
-	font-weight: bold;
-	font-size: 30px;
-	font-family: "Segoe UI";
 
-	// position: relative;
+	margin-right: 40px;
+	font-weight: lighter;
+	font-size: 30px;
+	font-family: "Barlow";
 }
 
 .about-section-2 {
 	color: #fff;
 	padding-bottom: 20px;
+
 	margin-left: 40px;
-	font-weight: bold;
+
+	margin-right: 40px;
+
+	font-weight: normal;
 	font-size: 30px;
-	font-family: "Segoe UI";
+	font-family: "Barlow";
 }
 
 .about-section-3 {
 	color: #fff;
 	padding-bottom: 20px;
+
 	margin-left: 40px;
-	font-weight: bold;
+
+	margin-right: 40px;
+	font-weight: normal;
 	font-size: 30px;
-	font-family: "Segoe UI";
+	font-family: "Barlow";
 }
 
 .socialHeading {
@@ -87,24 +88,21 @@
 	display: block;
 	color: #fff;
 	font-weight: bold;
-	font-family: "Segoe UI";
+	font-family: "Barlow";
 	font-size: 100px;
 	max-width: 100% !important;
 	text-decoration: underline;
 	text-decoration-color: #54ffbf;
 	padding-bottom: 5px;
-
 	text-underline-position: under;
 }
 
 .chatbubble {
-	// margin-top: 50px;
 	z-index: 60;
 	margin-right: 100px;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
 	position: relative;
-	// display: block;
 }
 
 .social-heading-container {
@@ -116,8 +114,6 @@
 }
 
 .github {
-	// margin-top: 350px;
-	// margin-left: 200px;
 	z-index: 60;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -126,8 +122,6 @@
 }
 
 .github-txt {
-	// margin-top: 550px;
-	// margin-left: 215px;
 	text-decoration: none;
 	color: #fff;
 	font-weight: bold;
@@ -137,8 +131,6 @@
 }
 
 .linkedin {
-	// margin-top: 350px;
-	// margin-left: 650px;
 	z-index: 60;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -147,7 +139,6 @@
 }
 
 .linkedin-txt {
-	// margin-left: 350px;
 	color: #fff;
 	font-weight: bold;
 	font-size: 30px;
@@ -157,8 +148,6 @@
 }
 
 .email {
-	// margin-top: 350px;
-	// margin-left: 1100px;
 	z-index: 60;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -167,7 +156,6 @@
 }
 
 .email-txt {
-	// margin-left: 395px;
 	color: #fff;
 	font-weight: bold;
 	display: inline-block;
@@ -177,8 +165,6 @@
 }
 
 .resume {
-	// margin-top: 330px;
-	// margin-left: 1550px;
 	z-index: 60;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -187,7 +173,6 @@
 }
 
 .resume-txt {
-	// margin-left: 310px;
 	display: inline-block;
 	text-decoration: none;
 	color: #fff;
@@ -209,6 +194,12 @@
 
 .flex-item {
 	padding: 70px;
+	opacity: 0.7;
+}
+
+.flex-item:hover {
+	padding: 70px;
+	opacity: 1;
 }
 
 .icon-column {
@@ -226,6 +217,10 @@
 	font-size: 30px;
 	padding-bottom: 10px;
 	font-family: "Raleway";
+}
+
+.flex-item:hover {
+	fill: #fce57e;
 }
 
 @media (max-width: 1800px) {
@@ -319,7 +314,6 @@
 
 @media (max-width: 768px) {
 	.content {
-		// height: 100%;
 		z-index: 20;
 		max-width: 100% !important;
 		overflow-x: hidden !important;
@@ -356,14 +350,11 @@
 		z-index: 70;
 		max-width: 60% !important;
 		margin: 0 auto;
-
 		left: 0px;
 		right: 0px;
 		overflow-x: hidden !important;
 		position: absolute;
 		display: block;
-		// display: flex;
-		// padding-bottom: 50px;
 	}
 
 	.aboutHeading {
@@ -375,8 +366,7 @@
 		display: block;
 		color: #fff;
 		font-weight: bold;
-		font-family: "Segoe UI";
-		// position: relative;
+		font-family: "Barlow";
 		font-size: 50px;
 		max-width: 100% !important;
 		text-decoration: underline;
@@ -391,9 +381,8 @@
 		text-align: center;
 		color: #fff;
 		font-weight: bold;
-		font-family: "Segoe UI";
+		font-family: "Barlow";
 		margin-left: 0px;
-		// position: relative;
 		font-size: 50px;
 		max-width: 100% !important;
 		text-decoration: underline;
@@ -406,10 +395,14 @@
 		color: #fff;
 		margin-top: 30px;
 		padding-bottom: 20px;
+
 		margin-left: 20px;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Segoe UI";
+		margin-right: 20px;
+
+		font-weight: lighter;
+		font-size: 25px;
+
+		font-family: "Barlow";
 	}
 
 	.about-section-2 {
@@ -417,9 +410,12 @@
 		margin-top: 30px;
 		padding-bottom: 20px;
 		margin-left: 20px;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Segoe UI";
+		margin-right: 20px;
+
+		font-weight: lighter;
+		font-size: 25px;
+
+		font-family: "Barlow";
 	}
 
 	.about-section-3 {
@@ -427,9 +423,12 @@
 		margin-top: 30px;
 		padding-bottom: 20px;
 		margin-left: 20px;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Segoe UI";
+		margin-right: 20px;
+
+		font-weight: lighter;
+		font-size: 25px;
+
+		font-family: "Barlow";
 	}
 	.chatbubble {
 		display: none;
@@ -513,16 +512,7 @@
 		font-family: "Raleway";
 	}
 
-	// .container-txt {
-	// 	padding-right: 190px;
-	// 	display: flex;
-	// 	justify-content: center;
-	// 	flex-direction: column;
-	// 	align-items: center;
-	// }
-
 	.social-container {
-		// margin-top: 50px;
 		max-width: 800px;
 		width: 100%;
 		margin: 0 auto;
@@ -532,8 +522,6 @@
 		align-items: center;
 	}
 	.social-heading-centre {
-		// max-width: 800px;
-		// width: 100%;
 		margin: 0 auto;
 		display: flex;
 		justify-content: center;

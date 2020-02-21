@@ -1,5 +1,4 @@
 .footer {
-	// height: 80vh;
 	z-index: 20;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
@@ -8,11 +7,6 @@
 }
 
 .footer-text {
-	// position: absolute;
-	// margin-top: 700px;
-	// background-color: mediumaquamarine;
-	// color: white;
-
 	padding-top: 50px;
 	padding-bottom: 20px;
 	color: #fff;
@@ -32,92 +26,16 @@
 	flex-direction: row;
 }
 
-// .footer-github {
-// 	margin-top: 450px;
-// 	margin-left: 200px;
-// 	z-index: 60;
-// 	max-width: 100% !important;
-// 	overflow-x: hidden !important;
-// 	position: absolute;
-// 	display: block;
-// }
+.footer-item {
+	opacity: 0.7;
+}
 
-// .footer-linkedin {
-// 	margin-top: 450px;
-// 	margin-left: 650px;
-// 	z-index: 60;
-// 	max-width: 100% !important;
-// 	overflow-x: hidden !important;
-// 	position: absolute;
-// 	display: block;
-// }
-
-// .footer-email {
-// 	margin-top: 450px;
-// 	margin-left: 1100px;
-// 	z-index: 60;
-// 	max-width: 100% !important;
-// 	overflow-x: hidden !important;
-// 	position: absolute;
-// 	display: block;
-// }
-
-// .footer-file {
-// 	margin-top: 430px;
-// 	margin-left: 1550px;
-// 	z-index: 60;
-// 	max-width: 100% !important;
-// 	overflow-x: hidden !important;
-// 	position: absolute;
-// 	display: block;
-// }
-
-// @media (max-width: 1850px) {
-// 	.footer {
-// 		// height: 80vh;
-// 		z-index: 20;
-// 		max-width: 100% !important;
-// 		overflow-x: hidden !important;
-// 		overflow-y: hidden !important;
-// 		background-image: linear-gradient(to top, #55c1f9 10%, #40aeaa 60%);
-// 	}
-
-// 	.footer-text {
-// 		// position: absolute;
-// 		// margin-top: 700px;
-// 		// background-color: mediumaquamarine;
-// 		// color: white;
-
-// 		padding-top: 30px;
-// 		padding-bottom: 20px;
-// 		color: #fff;
-// 		font-family: 'raleway';
-// 		font-weight: bold;
-// 		text-align: center;
-// 		overflow-x: hidden !important;
-// 	}
-
-// 	.footer-bar-container {
-// 		display: flex;
-// 		align-items: center;
-// 		// width: 0%;
-// 		padding-top: 50px;
-// 		justify-content: space-around;
-// 		flex-direction: column;
-// 	}
-
-// 	.footer-item {
-// 		padding: 40px;
-// 	}
-// }
+.footer-item:hover {
+	opacity: 1;
+}
 
 @media (max-width: 1800px) {
 	.footer-text {
-		// position: absolute;
-		// margin-top: 700px;
-		// background-color: mediumaquamarine;
-		// color: white;
-
 		padding-top: 50px;
 		padding-bottom: 20px;
 		color: #fff;

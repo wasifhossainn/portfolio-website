@@ -19,7 +19,6 @@ const About = () => {
 				<img alt="" className="techboy" src={Boy} />
 
 				<img alt="" className="divider" src={Divider} />
-				{/* <img alt="" className="chatbubble" src={ChatBubble} /> */}
 				<h1 className="aboutHeading">ABOUT ME</h1>
 				<p className="about-section-1">
 					Hi, my name is Wasif Hossain and I am currently studying
@@ -34,11 +33,9 @@ const About = () => {
 				</p>
 				<p className="about-section-3">
 					In the future, I believe that software engineering gives me opportunities and provides me exposure to tools
-					and skills
-					<br /> which can be implemented in real-world problems to produce premium quality applications and solutions.
-					These solutions can
-					<br /> solve problems in an innovative way and enhance interactions that are made between the user and their
-					devices.
+					and skills which can be implemented in real-world problems to produce premium quality applications and
+					solutions. These solutions can solve problems in an innovative way and enhance interactions that are made
+					between the user and their devices.
 				</p>
 				<div className="social-heading-container">
 					<div className="social-heading-centre">
@@ -63,7 +60,6 @@ const About = () => {
 							target="_blank"
 							href="https://au.linkedin.com/in/wasif-hossain-b4398115a"
 						>
-							{/* <img alt="" className="linkedin" src={LinkedIn} /> */}
 							<img alt="" className="flex-item" src={LinkedIn} />
 						</a>
 						<p className="icon-txt">LinkedIn</p>
@@ -71,7 +67,6 @@ const About = () => {
 
 					<div className="icon-column">
 						<a alt="" rel="noopener noreferrer" target="_blank" href="mailto:wasif.hossain@hotmail.com">
-							{/* <img alt="" className="email" src={Email} /> */}
 							<img alt="" className="flex-item" src={Email} />
 						</a>
 						<p className="icon-txt">Email</p>
@@ -79,18 +74,11 @@ const About = () => {
 
 					<div className="icon-column">
 						<a alt="" rel="noopener noreferrer" target="_blank" href={PDF}>
-							{/* <img alt="" className="resume" src={Resume} /> */}
 							<img alt="" className="flex-item" src={Resume} />
 						</a>
 						<p className="icon-txt">Resume</p>
 					</div>
 				</div>
-				{/* <div className="container-txt">
-					<p className="flex-txt">Github</p>
-					<p className="flex-txt">LinkedIn</p>
-					<p className="flex-txt">Email</p>
-					<p className="flex-txt">Resume</p>
-				</div> */}
 			</div>
 		</React.Fragment>
 	);
