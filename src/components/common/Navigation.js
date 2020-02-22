@@ -6,6 +6,7 @@ import SideBar from '../common/SideBar';
 import Logo from '../../assets/WH Logo.png';
 import { Link } from 'react-scroll';
 import navIcon from '../../assets/menu-color-filled.svg';
+import crossIcon from '../../assets/cancel-simple-filled.svg';
 
 class Navigation extends Component {
 	constructor(props) {
@@ -89,7 +90,7 @@ class Navigation extends Component {
 						</ul>
 					</div>
 					<div onClick={this.menuButton} className="menu-toggle">
-						<img className="menu" src={navIcon} alt="/" />
+						<img className="menu" src={!this.state.close ? navIcon : crossIcon} alt="/" />
 					</div>
 				</nav>
 

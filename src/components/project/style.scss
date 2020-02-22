@@ -9,13 +9,16 @@
 	background-image: linear-gradient(to top, #535eff -20%, #fc60d8 100%);
 }
 
+.task-animation {
+	display: none;
+}
+
 .divider {
 	z-index: 50;
 	width: 100%;
 	z-index: 50;
 	max-width: 100% !important;
 	overflow-x: hidden !important;
-	// position: absolute;
 	display: block;
 }
 
@@ -23,7 +26,6 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	// align-items: center;
 }
 
 .codingboy {
@@ -102,6 +104,10 @@
 	perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
+.animated-img {
+	display: none;
+}
+
 /* This container is needed to position the front and back side */
 .flip-card-inner {
 	position: relative;
@@ -159,6 +165,11 @@
 	right: 0;
 	height: 80px;
 	width: 80px;
+	opacity: 0.5;
+}
+
+.gitclick:hover {
+	opacity: 1;
 }
 .carRushBack {
 	transform: rotateY(180deg);
@@ -189,7 +200,6 @@ h3 {
 	padding-bottom: 100px;
 	align-items: center;
 	justify-content: center;
-	// align-items: center;
 }
 .slider-scale {
 	margin: auto;
@@ -255,11 +265,11 @@ h3 {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		padding-bottom: 0px;
 	}
 	.codingboy {
 		margin-top: 20px;
 		z-index: 60;
-		// left: 100px;
 		max-width: 40% !important;
 		overflow-x: hidden !important;
 		padding-bottom: 100px;
@@ -272,9 +282,6 @@ h3 {
 	.projectHeading {
 		padding-top: 170px;
 		margin-top: 100px;
-		// position: absolute;
-		// left: 50%;
-		// transform: translate(-50%, -50%);
 		text-align: center;
 		color: #fff;
 		font-weight: bold;
@@ -285,7 +292,6 @@ h3 {
 		text-decoration: underline;
 		text-decoration-color: #54e8ff;
 		text-underline-position: under;
-		// border-bottom: 10px solid #54e8ff;
 	}
 	.monitor {
 		margin-top: 100px;
@@ -296,13 +302,15 @@ h3 {
 		display: none;
 	}
 	.sliding-in {
-		// margin-top: 400px;
-		// width: 1100px;
 		max-width: 300px !important;
 		z-index: 80;
 		left: 50%;
 		transform: translate(-50%, -40%);
 		position: relative;
+	}
+
+	.animated-img {
+		display: block;
 	}
 	.flip-card-back {
 		background-image: linear-gradient(to right, #5433ff 0%, #20bdff 100%);
@@ -336,18 +344,9 @@ h3 {
 		text-align: left;
 		padding-left: 10px;
 		padding-right: 10px;
-
 		font-family: "Barlow";
 	}
-	.gitclick {
-		margin-top: 20px;
-		// margin-left: 190px;
-		margin: 0 auto;
-		left: 0;
-		right: 0;
-		height: 50px;
-		width: 50px;
-	}
+
 	.slider-scale {
 		position: relative;
 		display: flex;
@@ -358,5 +357,19 @@ h3 {
 		left: 0;
 		bottom: 0;
 		right: 0;
+	}
+	.task-animation {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: -250px;
+	}
+	.gitclick {
+		margin-top: 20px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		height: 50px;
+		width: 50px;
 	}
 }

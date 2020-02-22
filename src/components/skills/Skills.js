@@ -4,7 +4,8 @@ import Team from '../../assets/Team.svg';
 
 import Divider from '../../assets/Divider2.svg';
 
-import { CircularProgressbar } from 'react-circular-progressbar';
+import ChangingProgressProvider from './ChangingProgressProvider';
+import { CircularProgressbar, CircularProgressbarWithChildren } from 'react-circular-progressbar';
 import './style.scss';
 
 const Skills = () => {
@@ -32,14 +33,30 @@ const Skills = () => {
 				</p>
 
 				<div className="progress-bar-container">
-					<CircularProgressbar className="progress-bar" value={HTMLPercent} text={'HTML5'} />
-
-					<CircularProgressbar className="progress-bar" value={CSSPercent} text={'CSS3'} />
+					{/* <CircularProgressbar className="progress-bar" value={HTMLPercent} text={'HTML5'} /> */}
+					<ChangingProgressProvider className="progress-bar" values={[ 0, 20, 40, 60, 80 ]}>
+						{(percentage) => <CircularProgressbar value={percentage} text={'HTML    ' + `${percentage}%`} />}
+					</ChangingProgressProvider>
+					<ChangingProgressProvider className="progress-bar" values={[ 0, 20, 40, 60, 70 ]}>
+						{(percentage) => <CircularProgressbar value={percentage} text={'CSS3 ' + `${percentage}%`} />}
+					</ChangingProgressProvider>
+					<ChangingProgressProvider className="progress-bar" values={[ 0, 20, 40, 60, 80 ]}>
+						{(percentage) => <CircularProgressbar value={percentage} text={'React ' + `${percentage}%`} />}
+					</ChangingProgressProvider>
+					<ChangingProgressProvider className="progress-bar" values={[ 0, 20, 40, 60, 90 ]}>
+						{(percentage) => <CircularProgressbar value={percentage} text={'Java ' + `${percentage}%`} />}
+					</ChangingProgressProvider>
+					<ChangingProgressProvider className="progress-bar" values={[ 0, 20, 40, 60, 80 ]}>
+						{(percentage) => <CircularProgressbar value={percentage} text={'Python ' + `${percentage}%`} />}
+					</ChangingProgressProvider>
+					<ChangingProgressProvider className="progress-bar" values={[ 0, 10, 20, 40, 60 ]}>
+						{(percentage) => <CircularProgressbar value={percentage} text={'SQL ' + `${percentage}%`} />}
+					</ChangingProgressProvider>
+					{/* <CircularProgressbar className="progress-bar" value={CSSPercent} text={'CSS3'} />
 					<CircularProgressbar className="progress-bar" value={ReactJSPercent} text={'React + Redux'} />
 					<CircularProgressbar className="progress-bar" value={JavaPercent} text={'Java'} />
-
 					<CircularProgressbar className="progress-bar" value={PythonPercent} text={'Python'} />
-					<CircularProgressbar className="progress-bar" value={SQLPercent} text={'SQL'} />
+					<CircularProgressbar className="progress-bar" value={SQLPercent} text={'SQL'} /> */}
 				</div>
 			</div>
 		</React.Fragment>

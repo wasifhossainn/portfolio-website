@@ -2,11 +2,12 @@ import React from 'react';
 
 import Divider from '../../assets/Divider2.svg';
 import Boy from '../../assets/TechBoy.svg';
-import ChatBubble from '../../assets/ChatBubble.svg';
 import LinkedIn from '../../assets/LinkedInIcon.svg';
 import Email from '../../assets/EmailIcon.svg';
 import Github from '../../assets/GitIcon.svg';
 import Resume from '../../assets/ResumeIcon.svg';
+import Lottie from 'react-lottie';
+import Message from '../../assets/Chat bubbles-animated-illustration (1).json';
 
 import PDF from '../../assets/Wasif_Hossain_Resume.pdf';
 
@@ -41,8 +42,20 @@ const About = () => {
 					<div className="social-heading-centre">
 						<h1 className="socialHeading">SOCIAL LINKS</h1>
 					</div>
-
-					<img alt="" className="chatbubble" src={ChatBubble} />
+					<div className="chatbubble">
+						<Lottie
+							options={{
+								loop: true,
+								autoplay: true,
+								animationData: Message,
+								rendererSettings: {
+									preserveAspectRatio: 'xMidYMid slice'
+								}
+							}}
+							width={400}
+							height={400}
+						/>
+					</div>
 				</div>
 				<div className="social-container">
 					<div className="icon-column">
