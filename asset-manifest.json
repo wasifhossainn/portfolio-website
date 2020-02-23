@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.fb49b119.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.024cc946.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.024cc946.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.655ee763.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.c983e3be.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.c983e3be.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.087a6ff3.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.087a6ff3.js.map",
-    "static/js/2.73685e93.chunk.js": "/portfolio-website/static/js/2.73685e93.chunk.js",
-    "static/js/2.73685e93.chunk.js.map": "/portfolio-website/static/js/2.73685e93.chunk.js.map",
+    "static/js/2.50e238eb.chunk.js": "/portfolio-website/static/js/2.50e238eb.chunk.js",
+    "static/js/2.50e238eb.chunk.js.map": "/portfolio-website/static/js/2.50e238eb.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.ee4770c7c5697f30f8556e2dc03c058e.js": "/portfolio-website/precache-manifest.ee4770c7c5697f30f8556e2dc03c058e.js",
+    "precache-manifest.8f1cd7ea4765f89b8f73138cc5f0cca4.js": "/portfolio-website/precache-manifest.8f1cd7ea4765f89b8f73138cc5f0cca4.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
-    "static/css/main.fb49b119.chunk.css.map": "/portfolio-website/static/css/main.fb49b119.chunk.css.map",
-    "static/js/2.73685e93.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.73685e93.chunk.js.LICENSE.txt",
+    "static/css/main.655ee763.chunk.css.map": "/portfolio-website/static/css/main.655ee763.chunk.css.map",
+    "static/js/2.50e238eb.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.50e238eb.chunk.js.LICENSE.txt",
     "static/media/Algorithms.svg": "/portfolio-website/static/media/Algorithms.35be897d.svg",
     "static/media/Divider2.svg": "/portfolio-website/static/media/Divider2.e5649e21.svg",
     "static/media/EmailIcon.svg": "/portfolio-website/static/media/EmailIcon.d3268f88.svg",
@@ -39,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.087a6ff3.js",
-    "static/js/2.73685e93.chunk.js",
-    "static/css/main.fb49b119.chunk.css",
-    "static/js/main.024cc946.chunk.js"
+    "static/js/2.50e238eb.chunk.js",
+    "static/css/main.655ee763.chunk.css",
+    "static/js/main.c983e3be.chunk.js"
   ]
 }
