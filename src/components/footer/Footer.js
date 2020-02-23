@@ -1,12 +1,11 @@
 import React from 'react';
 
+import Divider from '../../assets/Divider2.svg';
 import LinkedIn from '../../assets/LinkedInIcon.svg';
 import Email from '../../assets/EmailIcon.svg';
 import Github from '../../assets/GitIcon.svg';
 import Resume from '../../assets/ResumeIcon.svg';
-
 import PDF from '../../assets/Wasif_Hossain_Resume.pdf';
-import Divider from '../../assets/Divider2.svg';
 
 import './style.scss';
 

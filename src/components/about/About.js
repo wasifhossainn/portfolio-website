@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSpring, animated } from 'react-spring';
 
 import Divider from '../../assets/Divider2.svg';
 import Boy from '../../assets/TechBoy.svg';
@@ -8,14 +9,19 @@ import Github from '../../assets/GitIcon.svg';
 import Resume from '../../assets/ResumeIcon.svg';
 import Lottie from 'react-lottie';
 import Message from '../../assets/Chat bubbles-animated-illustration (1).json';
-
 import PDF from '../../assets/Wasif_Hossain_Resume.pdf';
 
 import './style.scss';
 
 const About = () => {
+	const fade = useSpring({
+		from: { opacity: 0 },
+		to: { opacity: 1 }
+	});
+	
 	return (
-		<React.Fragment>
+		
+		<animated.div style={fade}><React.Fragment>
 			<div className="content" id="About">
 				<img alt="" className="techboy" src={Boy} />
 
@@ -33,10 +39,10 @@ const About = () => {
 					This involved me to develop skills of web development as I used ReactJS Framework to create a video platform.
 				</p>
 				<p className="about-section-3">
-					In the future, I believe that software engineering gives me opportunities and provides me exposure to tools
-					and skills which can be implemented in real-world problems to produce premium quality applications and
-					solutions. These solutions can solve problems in an innovative way and enhance interactions that are made
-					between the user and their devices.
+					In the future, I aspire to consistently develop my web and mobile programming skills. I believe that software
+					engineering gives me opportunities and provides me exposure to tools and skills which can be implemented in
+					real-world problems to produce premium quality applications and solutions. These solutions can solve problems
+					in an innovative way and enhance interactions that are made between the user and their devices.
 				</p>
 				<div className="social-heading-container">
 					<div className="social-heading-centre">
@@ -94,6 +100,8 @@ const About = () => {
 				</div>
 			</div>
 		</React.Fragment>
+		</animated.div>
+		
 	);
 };
 

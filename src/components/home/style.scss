@@ -3,18 +3,28 @@
 	src: url("../../fonts/OutrunfutureBoldItalic.otf");
 }
 
+.home-content{
+	// min-height: 100vh;
+	z-index: 20;
+	position: relative;
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+
+}
+
 .header {
 	z-index: 30;
 	text-align: center;
-	height: 100vh;
 	position: relative;
 	background-size: cover;
+	height:100vh;
 	overflow: hidden;
-	bottom: 0px;
+	bottom: 0px;	
+	top:0px;
+	background-image: linear-gradient(to top, #fc60d8 10%, #1b206a 60%);
 }
 
 .background {
-	width: 100%;
 	z-index: 30;
 	display: block;
 }
@@ -224,11 +234,8 @@ header h1 {
 		display: block;
 		position: relative;
 		width: 90%;
-		// height:10%;
 		top: 70%;
-
 		left: 50%;
-		/* bring your own prefixes */
 		transform: translate(-95%, -20%);
 	}
 
@@ -255,16 +262,15 @@ header h1 {
 	.header {
 		height: 100%;
 		padding-bottom: 0;
+
+		max-height: 100vh;
 	}
 	.container {
 		display: block;
 		position: relative;
 		width: 90%;
-		// height:10%;
 		top: 70%;
-
 		left: 50%;
-		/* bring your own prefixes */
 		transform: translate(-95%, -20%);
 	}
 

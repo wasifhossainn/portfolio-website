@@ -1,5 +1,5 @@
 import React from 'react';
-import HourGlass from '../../assets/Loading.json';
+import LoadingImage from '../../assets/Loading.json';
 import Lottie from 'react-lottie';
 import './style.scss';
 
@@ -12,7 +12,7 @@ class Loading extends React.Component {
 						options={{
 							loop: true,
 							autoplay: true,
-							animationData: HourGlass,
+							animationData: LoadingImage,
 							rendererSettings: {
 								preserveAspectRatio: 'xMidYMid slice'
 							}

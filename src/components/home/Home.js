@@ -1,7 +1,9 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
-import './style.scss';
+
 import Background from '../../assets/background.svg';
+
+import './style.scss';
 
 const Home = () => {
 	const fade = useSpring({
@@ -11,16 +13,20 @@ const Home = () => {
 
 	return (
 		<animated.div style={fade}>
+			
 			<header className="header" id="Home">
+				
 				<div className="container">
 					<h1 className="homeHeading"> Wasif Hossain</h1>
 					<h1 className="homeHeading2">Wasif Hossain</h1>
 					<h1 className="homeHeading3">Wasif Hossain</h1>
 				</div>
-
-				<img className="background" alt="/" src={Background} />
+				
+			<img className="background" alt="/" src={Background} />
+			
 			</header>
-		</animated.div>
+
+	 </animated.div>
 	);
 };
 

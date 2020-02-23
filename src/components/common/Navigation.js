@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import './style.scss';
-import classnames from 'classnames';
+import { Link } from 'react-scroll';
 
 import SideBar from '../common/SideBar';
 import Logo from '../../assets/WH Logo.png';
-import { Link } from 'react-scroll';
 import navIcon from '../../assets/menu-color-filled.svg';
 import crossIcon from '../../assets/cancel-simple-filled.svg';
+
+import './style.scss';
+import classnames from 'classnames';
 
 class Navigation extends Component {
 	constructor(props) {
@@ -28,17 +29,17 @@ class Navigation extends Component {
 		});
 	};
 
-	// Adds an event listener when the component is mount.
+	// Adds an event listener when the component is mount
 	componentDidMount() {
 		window.addEventListener('scroll', this.handleScroll);
 	}
 
-	// Remove the event listener when the component is unmount.
+	// Remove the event listener when the component is unmount
 	componentWillUnmount() {
 		window.removeEventListener('scroll', this.handleScroll);
 	}
 
-	// Hide or show the menu.
+	// Hide/show menu 
 	handleScroll = () => {
 		const { prevScrollpos } = this.state;
 
@@ -83,7 +84,7 @@ class Navigation extends Component {
 							</li>
 
 							<li>
-								<Link activeClass="active" to="Skills" spy={true} smooth={true} offset={250} duration={500}>
+								<Link activeClass="active" to="Skills" spy={true} smooth={true} offset={230} duration={500}>
 									<button className="skillBtn">Skills</button>
 								</Link>
 							</li>

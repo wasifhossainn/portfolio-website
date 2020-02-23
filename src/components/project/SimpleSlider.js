@@ -3,20 +3,15 @@ import Slider from 'react-slick';
 
 import Github from '../../assets/GitIcon.svg';
 import carGame from '../../assets/carGame.svg';
-
 import Algorithms from '../../assets/Algorithms.svg';
-
 import OneVice from '../../assets/OneVice.svg';
 import StreamApp from '../../assets/StreamApp.svg';
-
 import ezyDonatePromo from '../../assets/ezyDonate-promo-website.svg';
-
 import everNoteApp from '../../assets/Evernoteapp.svg';
-
 import ePortfolio from '../../assets/WHPortfolio.svg';
-
 import ezyDonate from '../../assets/ezyDonate.svg';
 import SpaceInvaders from '../../assets/SpaceInvaders.svg';
+
 import './style.scss';
 
 export default class SimpleSlider extends Component {
