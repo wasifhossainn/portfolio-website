@@ -15,12 +15,12 @@ class App extends React.Component {
 		loading: false
 	};
 
-	componentWillMount() {
+	componentDidMount() {
 		setTimeout(() => {
 			this.setState({
 				loading: true
 			});
-		}, 1500);
+		}, 2000);
 	}
 
 	renderContent = () => {

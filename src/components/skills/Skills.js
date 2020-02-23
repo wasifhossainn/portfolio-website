@@ -32,13 +32,13 @@ const Skills = () => {
 				</p>
 
 				<div className="progress-bar-container">
-				<CircularProgressbar className="progress-bar" value={HTMLPercent} text={'HTML5 ' + `${HTMLPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={CSSPercent} text={'CSS3 ' + `${CSSPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={ReactJSPercent} text={'React ' + `${ReactJSPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={JavaPercent} text={'Java ' + `${JavaPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={PythonPercent} text={'Python ' + `${PythonPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={SQLPercent} text={'SQL ' + `${SQLPercent}%`} /> 
-					<CircularProgressbar className="progress-bar" value={VanillaJS} text={'Vanilla JS ' + `${VanillaJS}%`} /> 
+				<CircularProgressbar className="progress-bar" value={HTMLPercent} text={ `HTML ${HTMLPercent}%`} />
+					<CircularProgressbar className="progress-bar" value={CSSPercent} text={`CSS3 ${CSSPercent}%`} />
+					<CircularProgressbar className="progress-bar" value={ReactJSPercent} text={`React ${ReactJSPercent}%`} />
+					<CircularProgressbar className="progress-bar" value={JavaPercent} text={`Java ${JavaPercent}%`} />
+					<CircularProgressbar className="progress-bar" value={PythonPercent} text={`Python ${PythonPercent}%`} />
+					<CircularProgressbar className="progress-bar" value={SQLPercent} text={`SQL ${SQLPercent}%`} /> 
+					<CircularProgressbar className="progress-bar" value={VanillaJS} text={`Vanilla JS ${VanillaJS}%`} /> 
 				</div>
 			</div>
 		</React.Fragment>
