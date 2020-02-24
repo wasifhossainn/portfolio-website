@@ -219,6 +219,17 @@ h3 {
 		position: absolute;
 		display: block;
 	}
+	.monitor {
+		margin-top: 550px;
+		width: 1200px;
+		max-width: 1200px !important;
+		z-index: 20;
+		left: 50%;
+		padding-left: 50px;
+		padding-right: 50px;
+		transform: translate(-50%, -50%);
+		position: absolute;
+	}
 }
 @media (max-width: 1024px) {
 	.codingboy {
@@ -229,6 +240,18 @@ h3 {
 		overflow-x: hidden !important;
 		position: absolute;
 		display: block;
+	}
+	.monitor {
+		// margin-top: 550px;
+		top: 67%;
+		width: 1200px;
+		max-width: 1200px !important;
+		z-index: 20;
+		left: 50%;
+		padding-left: 50px;
+		padding-right: 50px;
+		transform: translate(-50%, -50%);
+		position: absolute;
 	}
 	.projectHeading {
 		margin-top: 100px;
@@ -262,6 +285,7 @@ h3 {
 		justify-content: center;
 		padding-bottom: 0px;
 	}
+	
 	.codingboy {
 		margin-top: 20px;
 		z-index: 60;

@@ -11,20 +11,23 @@ import Loading from './components/common/Loading';
 import './index.scss';
 
 class App extends React.Component {
-	state = {
-		loading: false
-	};
+	constructor(props) {
+		super(props);
+		this.state = {
+			loading: true
+		};
+	}
 
 	componentDidMount() {
 		setTimeout(() => {
 			this.setState({
-				loading: true
+				loading: false
 			});
 		}, 2000);
 	}
 
 	renderContent = () => {
-		if (!this.state.loading) {
+		if (this.state.loading) {
 			return <Loading />;
 		}
 		return (
