@@ -29,23 +29,22 @@ const About = () => {
 					<img alt="" className="divider" src={Divider} />
 					<h1 className="aboutHeading">ABOUT ME</h1>
 					<p className="about-section-1">
-						Hi, my name is Wasif Hossain and I am currently studying
+						Hi, my name is Wasif Hossain and I am a 3rd year
 						<br />
-						Software Engineering at University of Technology Sydney.
+						Software Engineering Student at University of Technology Sydney.
 					</p>
 					<p className="about-section-2">
-						I'm a passionate and a hardworking individual who has had experience working as a full-time front-end
+						I'm a passionate and a hardworking individual who has had recent experience working as a full-time front-end
 						developer at Stomble.
 						<br />
-						This involved me to develop skills of web development as I used ReactJS Framework to create a video
-						platform.
+						This exposed me to web and mobile development as I used ReactJS Framework to create a video platform
+						application.
 					</p>
 					<p className="about-section-3">
-						In the future, I aspire to consistently develop my web and mobile programming skills. I believe that
-						software engineering gives me opportunities and provides me exposure to tools and skills which can be
-						implemented in real-world problems to produce premium quality applications and solutions. These solutions
-						can solve problems in an innovative way and enhance interactions that are made between the user and their
-						devices.
+						I aspire to consistently develop my web and mobile programming skills. I believe that software engineering
+						gives me opportunities and provides me exposure to tools and skills which can be implemented in real-world
+						problems to produce premium quality applications and solutions. These solutions can solve problems in an
+						innovative way and enhance interactions that are made between the user and their devices.
 					</p>
 					<div className="social-heading-container">
 						<div className="social-heading-centre">
