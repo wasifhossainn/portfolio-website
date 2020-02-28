@@ -30,15 +30,15 @@ const Skills = () => {
 					allowing users <br /> to absorb content through videos that are posted by businesses.
 				</p>
 				<div className="skill-icon-container">
-					<img alt="" className="skill-icon" src={HTML5} />
-					<img alt="" className="skill-icon" src={CSS3} />
-					<img alt="" className="skill-icon" src={Javascript} />
-					<img alt="" className="skill-icon" src={ReactIcon} />
-					<img alt="" className="skill-icon" src={ReduxIcon} />
-					<img alt="" className="skill-icon" src={Python} />
-					<img alt="" className="skill-icon" src={Java} />
-					<img alt="" className="skill-icon" src={SQL} />
-					<img alt="" className="skill-icon" src={C} />
+					<img alt="" title="HTML5" className="skill-icon" src={HTML5} />
+					<img alt="" title="CSS3" className="skill-icon" src={CSS3} />
+					<img alt="" title="Vanilla Javascript" className="skill-icon" src={Javascript} />
+					<img alt="" title="React" className="skill-icon" src={ReactIcon} />
+					<img alt="" title="Redux" className="skill-icon" src={ReduxIcon} />
+					<img alt="" title="Python" className="skill-icon" src={Python} />
+					<img alt="" title="Java" className="skill-icon" src={Java} />
+					<img alt="" title="SQL" className="skill-icon" src={SQL} />
+					<img alt="" title="C" className="skill-icon" src={C} />
 				</div>
 			</div>
 		</React.Fragment>
