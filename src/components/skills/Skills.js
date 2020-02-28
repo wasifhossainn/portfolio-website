@@ -20,11 +20,8 @@ const Skills = () => {
 		<React.Fragment>
 			<div className="skill-content" id="Skills">
 				<img alt="" className="divider" src={Divider} />
-
 				<img alt="" className="team" src={Team} />
-
 				<h1 className="skillHeading">TECHNICAL SKILLS</h1>
-
 				<p className="skill-section-1">
 					Recently, I worked at Stomble (June 2019- January 2020) as a front-end developer in a <br /> SCRUM environment
 					where we created a video platform using ReactJS, AWS APIs, <br /> Material UI and Redux Sagas. Also, used
@@ -32,7 +29,6 @@ const Skills = () => {
 					error and Trello for organising <br /> SCRUM product backlog. The application connects businesses and users,
 					allowing users <br /> to absorb content through videos that are posted by businesses.
 				</p>
-
 				<div className="skill-icon-container">
 					<img alt="" className="skill-icon" src={HTML5} />
 					<img alt="" className="skill-icon" src={CSS3} />
