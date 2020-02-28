@@ -61,7 +61,7 @@ class Navigation extends Component {
 					})}
 				>
 					<Link activeClass="active" to="Footer" spy={true} smooth={true} offset={-70} duration={500}>
-						<img src={Logo} alt="/" title="Social Links" className="logo" />
+						<img src={Logo} title="Social Links" alt="" className="logo" />
 					</Link>
 					<div className="navbar-buttons">
 						<ul>
