@@ -161,9 +161,51 @@
 	opacity: 0.5;
 }
 
+.linkclick {
+	margin-top: 20px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	height: 95px;
+	width: 95px;
+	padding-left: 20px;
+	opacity: 0.5;
+}
+
+.playclick {
+	margin-top: 20px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	height: 105px;
+	width: 105px;
+	padding-left: 20px;
+	opacity: 0.5;
+}
+
+.links-container {
+	max-width: 800px;
+	width: 100%;
+	padding-top: 0px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+
 .gitclick:hover {
 	opacity: 1;
 }
+
+.linkclick:hover {
+	opacity: 1;
+}
+
+.playclick:hover {
+	opacity: 1;
+}
+
 .carRushBack {
 	transform: rotateY(180deg);
 }
@@ -389,5 +431,24 @@ h3 {
 		right: 0;
 		height: 50px;
 		width: 50px;
+	}
+	.linkclick {
+		margin-top: 20px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		height: 65px;
+		width: 65px;
+		opacity: 0.5;
+	}
+	.playclick {
+		margin-top: 20px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		height: 70px;
+		width: 70px;
+		padding-left: 20px;
+		opacity: 0.5;
 	}
 }

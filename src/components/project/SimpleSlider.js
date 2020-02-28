@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Slider from 'react-slick';
 
 import Github from '../../assets/GitIcon.svg';
+
+import Link from '../../assets/link-object-color (4).svg';
+
+import Video from '../../assets/play-border-filled.svg';
 import carGame from '../../assets/carGame.svg';
 import Algorithms from '../../assets/Algorithms.svg';
 import OneVice from '../../assets/OneVice.svg';
@@ -36,12 +40,21 @@ export default class SimpleSlider extends Component {
 									<h1>CAR RUSH</h1>
 									<p>
 										Side Project I worked on using Python 3.4, where you have to dodge incoming cars by using arrow
-										keys. <br /> Game also has additional functionalities such as menu, music, instruction and high
-										score.
+										keys. Game also has additional functionalities such as menu, music, instruction and high score.
 									</p>
-									<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn/carRush">
-										<img alt="" src={Github} className="gitclick" />
-									</a>
+									<div className="links-container">
+										<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn/carRush">
+											<img alt="" src={Github} className="gitclick" />
+										</a>
+										<a
+											rel="noopener noreferrer"
+											alt=""
+											target="_blank"
+											href="https://www.youtube.com/watch?v=iwKxE6eLuHw&feature=youtu.be"
+										>
+											<img alt="" src={Video} className="playclick" />
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -58,14 +71,25 @@ export default class SimpleSlider extends Component {
 									game. The objective of the game is to defeat the aliens and it also includes a multiplayer mode. There
 									are also additonal functions in the game such as power ups and high score.
 								</p>
-								<a
-									rel="noopener noreferrer"
-									alt=""
-									target="_blank"
-									href="https://github.com/wasifhossainn/SpaceInvaders"
-								>
-									<img alt="" className="gitclick" src={Github} />
-								</a>
+
+								<div className="links-container">
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="https://github.com/wasifhossainn/SpaceInvader"
+									>
+										<img alt="" className="gitclick" src={Github} />
+									</a>
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="https://www.youtube.com/watch?v=yAzAS21myGg&feature=youtu.be"
+									>
+										<img alt="" src={Video} className="playclick" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -82,14 +106,27 @@ export default class SimpleSlider extends Component {
 									users to be able to purchase and sell electronic devices online. There are also additional
 									functionalities such as recommendations and customising profile.
 								</p>
-								<a
-									rel="noopener noreferrer"
-									alt=""
-									target="_blank"
-									href="https://github.com/DavidOsburnUTS/studio-group8"
-								>
-									<img alt="" className="gitclick" src={Github} />
-								</a>
+
+								<div className="links-container">
+									{' '}
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="https://github.com/DavidOsburnUTS/studio-group8"
+									>
+										<img alt="" className="gitclick" src={Github} />
+									</a>
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="
+									https://www.youtube.com/watch?v=hsRhr7fpbcY&feature=youtu.be"
+									>
+										<img alt="" src={Video} className="playclick" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -106,9 +143,26 @@ export default class SimpleSlider extends Component {
 									that connects donors and charities. It allows donors to be able to donate, make bookings, view and
 									cancel events.
 								</p>
-								<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/mikaelamcnamara/ezyDonate">
-									<img alt="" className="gitclick" src={Github} />
-								</a>
+
+								<div className="links-container">
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="https://github.com/mikaelamcnamara/ezyDonate"
+									>
+										<img alt="" className="gitclick" src={Github} />
+									</a>
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="
+										https://www.youtube.com/watch?v=3tOcMkz4dwE&feature=youtu.be"
+									>
+										<img alt="" src={Video} className="playclick" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -124,9 +178,15 @@ export default class SimpleSlider extends Component {
 									you to add/delete notes and also be able to customise the formatting such as bold, heading and adding
 									attachments, underline and add bullet points. It also saves your notes, as it is stored in firebase.
 								</p>
-								<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn/evernote">
-									<img alt="" className="gitclick" src={Github} />
-								</a>
+
+								<div className="links-container">
+									<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn/evernote">
+										<img alt="" className="gitclick" src={Github} />
+									</a>
+									<a rel="noopener noreferrer" alt="" target="_blank" href="https://wasifhossainn.github.io/evernote/">
+										<img alt="" src={Link} className="linkclick" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -144,9 +204,21 @@ export default class SimpleSlider extends Component {
 									through a RTMP server and then it will feed it onto the viwer's browser, which allows users to be able
 									to view a stream.
 								</p>
-								<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn/streams">
-									<img alt="" className="gitclick" src={Github} />
-								</a>
+
+								<div className="links-container">
+									<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn/streams">
+										<img alt="" className="gitclick" src={Github} />
+									</a>
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="
+											https://www.youtube.com/watch?v=wkU2ug9M3UQ&feature=youtu.be"
+									>
+										<img alt="" src={Video} className="playclick" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>{' '}
@@ -163,14 +235,25 @@ export default class SimpleSlider extends Component {
 									website, simply is a promotion for my previous mobile application called ezyDonate, showing features
 									of the app.
 								</p>
-								<a
-									rel="noopener noreferrer"
-									alt=""
-									target="_blank"
-									href="https://github.com/wasifhossainn/ezyDonate-promo-website"
-								>
-									<img alt="" className="gitclick" src={Github} />
-								</a>
+
+								<div className="links-container">
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="https://github.com/wasifhossainn/ezyDonate-promo-website"
+									>
+										<img alt="" className="gitclick" src={Github} />
+									</a>
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="https://wasifhossainn.github.io/ezyDonate-promo-website/"
+									>
+										<img alt="" src={Link} className="linkclick" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>{' '}
@@ -188,9 +271,25 @@ export default class SimpleSlider extends Component {
 									using either binary or linear. The application then outputs the index of the number they wanted to
 									search for.
 								</p>
-								<a rel="noopener noreferrer" alt="" target="_blank" href="https://github.com/wasifhossainn/algorithms">
-									<img alt="" className="gitclick" src={Github} />
-								</a>
+
+								<div className="links-container">
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="https://github.com/wasifhossainn/algorithms"
+									>
+										<img alt="" className="gitclick" src={Github} />
+									</a>
+									<a
+										rel="noopener noreferrer"
+										alt=""
+										target="_blank"
+										href="https://www.youtube.com/watch?v=s4XXr5mWGTo&feature=youtu.be"
+									>
+										<img alt="" src={Video} className="playclick" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>

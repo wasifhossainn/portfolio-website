@@ -3,17 +3,19 @@ import React from 'react';
 import Team from '../../assets/Team.svg';
 import Divider from '../../assets/Divider2.svg';
 
-import { CircularProgressbar } from 'react-circular-progressbar';
+import HTML5 from '../../assets/html5-original.svg';
+import CSS3 from '../../assets/css3-original.svg';
+import Javascript from '../../assets/javascript-original.svg';
+import ReactIcon from '../../assets/react-original.svg';
+import ReduxIcon from '../../assets/redux-original.svg';
+import Python from '../../assets/python-original.svg';
+import Java from '../../assets/java-original.svg';
+import SQL from '../../assets/mysql-original.svg';
+import C from '../../assets/c-original.svg';
+
 import './style.scss';
 
 const Skills = () => {
-	const HTMLPercent = 80;
-	const CSSPercent = 70;
-	const ReactJSPercent = 80;
-	const JavaPercent = 90;
-	const PythonPercent = 80;
-	const SQLPercent = 60;
-	const VanillaJS = 80;
 	return (
 		<React.Fragment>
 			<div className="skill-content" id="Skills">
@@ -31,14 +33,16 @@ const Skills = () => {
 					allowing users <br /> to absorb content through videos that are posted by businesses.
 				</p>
 
-				<div className="progress-bar-container">
-				<CircularProgressbar className="progress-bar" value={HTMLPercent} text={ `HTML ${HTMLPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={CSSPercent} text={`CSS3 ${CSSPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={ReactJSPercent} text={`React ${ReactJSPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={JavaPercent} text={`Java ${JavaPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={PythonPercent} text={`Python ${PythonPercent}%`} />
-					<CircularProgressbar className="progress-bar" value={SQLPercent} text={`SQL ${SQLPercent}%`} /> 
-					<CircularProgressbar className="progress-bar" value={VanillaJS} text={`Vanilla JS ${VanillaJS}%`} /> 
+				<div className="skill-icon-container">
+					<img alt="" className="skill-icon" src={HTML5} />
+					<img alt="" className="skill-icon" src={CSS3} />
+					<img alt="" className="skill-icon" src={Javascript} />
+					<img alt="" className="skill-icon" src={ReactIcon} />
+					<img alt="" className="skill-icon" src={ReduxIcon} />
+					<img alt="" className="skill-icon" src={Python} />
+					<img alt="" className="skill-icon" src={Java} />
+					<img alt="" className="skill-icon" src={SQL} />
+					<img alt="" className="skill-icon" src={C} />
 				</div>
 			</div>
 		</React.Fragment>
