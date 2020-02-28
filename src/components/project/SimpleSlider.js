@@ -302,7 +302,7 @@ export default class SimpleSlider extends Component {
 								<h1> E-Portfolio Website</h1>
 								<p>
 									Personal project where I used React, Router, Sass, React Springs and Lottie library. The purpose of
-									this applicationis to showcase my achivements and projects, therefore my passion for Software
+									this application is to showcase my achivements and projects, therefore my passion for Software
 									Engineering. This is also my most recent project I have been working on.
 								</p>
 								<a
