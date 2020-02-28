@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.543903ec.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.73400250.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.73400250.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.77c6a4a9.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.ca79469c.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.ca79469c.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.087a6ff3.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.087a6ff3.js.map",
-    "static/js/2.50e238eb.chunk.js": "/portfolio-website/static/js/2.50e238eb.chunk.js",
-    "static/js/2.50e238eb.chunk.js.map": "/portfolio-website/static/js/2.50e238eb.chunk.js.map",
+    "static/js/2.f44e4180.chunk.js": "/portfolio-website/static/js/2.f44e4180.chunk.js",
+    "static/js/2.f44e4180.chunk.js.map": "/portfolio-website/static/js/2.f44e4180.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.acc16580b94f083d53ad5999cb821bc6.js": "/portfolio-website/precache-manifest.acc16580b94f083d53ad5999cb821bc6.js",
+    "precache-manifest.2686a3e453e8477d0bf1a92db7891993.js": "/portfolio-website/precache-manifest.2686a3e453e8477d0bf1a92db7891993.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
-    "static/css/main.543903ec.chunk.css.map": "/portfolio-website/static/css/main.543903ec.chunk.css.map",
-    "static/js/2.50e238eb.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.50e238eb.chunk.js.LICENSE.txt",
+    "static/css/main.77c6a4a9.chunk.css.map": "/portfolio-website/static/css/main.77c6a4a9.chunk.css.map",
+    "static/js/2.f44e4180.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.f44e4180.chunk.js.LICENSE.txt",
     "static/media/Algorithms.svg": "/portfolio-website/static/media/Algorithms.35be897d.svg",
     "static/media/Divider2.svg": "/portfolio-website/static/media/Divider2.e5649e21.svg",
     "static/media/EmailIcon.svg": "/portfolio-website/static/media/EmailIcon.d3268f88.svg",
@@ -31,16 +31,27 @@
     "static/media/WHPortfolio.svg": "/portfolio-website/static/media/WHPortfolio.5871b581.svg",
     "static/media/Wasif_Hossain_Resume.pdf": "/portfolio-website/static/media/Wasif_Hossain_Resume.9693de19.pdf",
     "static/media/background.svg": "/portfolio-website/static/media/background.5b04cca2.svg",
+    "static/media/c-original.svg": "/portfolio-website/static/media/c-original.3505d536.svg",
     "static/media/cancel-simple-filled.svg": "/portfolio-website/static/media/cancel-simple-filled.9c2173e6.svg",
     "static/media/carGame.svg": "/portfolio-website/static/media/carGame.84dec646.svg",
+    "static/media/css3-original.svg": "/portfolio-website/static/media/css3-original.a70a7e3e.svg",
     "static/media/ezyDonate-promo-website.svg": "/portfolio-website/static/media/ezyDonate-promo-website.e56549fc.svg",
     "static/media/ezyDonate.svg": "/portfolio-website/static/media/ezyDonate.3a28f8fd.svg",
-    "static/media/menu-color-filled.svg": "/portfolio-website/static/media/menu-color-filled.c735b61e.svg"
+    "static/media/html5-original.svg": "/portfolio-website/static/media/html5-original.7997c424.svg",
+    "static/media/java-original.svg": "/portfolio-website/static/media/java-original.66517ded.svg",
+    "static/media/javascript-original.svg": "/portfolio-website/static/media/javascript-original.de79c8f1.svg",
+    "static/media/link-object-color (4).svg": "/portfolio-website/static/media/link-object-color (4).55921ec8.svg",
+    "static/media/menu-color-filled.svg": "/portfolio-website/static/media/menu-color-filled.c735b61e.svg",
+    "static/media/mysql-original.svg": "/portfolio-website/static/media/mysql-original.c326c80a.svg",
+    "static/media/play-border-filled.svg": "/portfolio-website/static/media/play-border-filled.e716cf61.svg",
+    "static/media/python-original.svg": "/portfolio-website/static/media/python-original.3b84eb40.svg",
+    "static/media/react-original.svg": "/portfolio-website/static/media/react-original.e9f3d01c.svg",
+    "static/media/redux-original.svg": "/portfolio-website/static/media/redux-original.b7dc3b99.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.087a6ff3.js",
-    "static/js/2.50e238eb.chunk.js",
-    "static/css/main.543903ec.chunk.css",
-    "static/js/main.73400250.chunk.js"
+    "static/js/2.f44e4180.chunk.js",
+    "static/css/main.77c6a4a9.chunk.css",
+    "static/js/main.ca79469c.chunk.js"
   ]
 }
