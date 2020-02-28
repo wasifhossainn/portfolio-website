@@ -46,7 +46,7 @@ const About = () => {
 						problems to produce premium quality applications and solutions. These solutions can solve problems in an
 						innovative way and enhance interactions that are made between the user and their devices.
 					</p>
-					<div className="social-heading-container">
+					<div className="social-heading-container" id="Contact">
 						<div className="social-heading-centre">
 							<h1 className="socialHeading">SOCIAL LINKS</h1>
 						</div>

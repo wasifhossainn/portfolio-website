@@ -21,6 +21,11 @@ const SideBar = () => {
 						About
 					</Link>
 				</li>
+				<li>
+					<Link activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500}>
+						Contact
+					</Link>
+				</li>
 
 				<li>
 					<Link activeClass="active" to="Project" spy={true} smooth={true} offset={0} duration={500}>

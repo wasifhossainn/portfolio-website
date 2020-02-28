@@ -61,7 +61,7 @@ class Navigation extends Component {
 					})}
 				>
 					<Link activeClass="active" to="Footer" spy={true} smooth={true} offset={-70} duration={500}>
-						<img src={Logo} title="Social Links" alt="" className="logo" />
+						<img src={Logo} title="Footer" alt="" className="logo" />
 					</Link>
 					<div className="navbar-buttons">
 						<ul>
@@ -76,7 +76,11 @@ class Navigation extends Component {
 									<button className="aboutBtn">About</button>
 								</Link>
 							</li>
-
+							<li>
+								<Link activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500}>
+									<button className="contactBtn">Contact</button>
+								</Link>
+							</li>
 							<li>
 								<Link activeClass="active" to="Project" spy={true} smooth={true} offset={0} duration={500}>
 									<button className="projectBtn">Projects</button>
