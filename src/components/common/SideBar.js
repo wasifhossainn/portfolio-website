@@ -12,30 +12,30 @@ const SideBar = () => {
 			<ul className="sidebar">
 				<li>
 					<Link activeClass="active" to="Home" spy={true} smooth={true} offset={70} duration={500}>
-						Home
+						<div>Home</div>
 					</Link>
 				</li>
 
 				<li>
 					<Link activeClass="active" to="About" spy={true} smooth={true} offset={50} duration={500}>
-						About
+						<div> About </div>
 					</Link>
 				</li>
 				<li>
 					<Link activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500}>
-						Contact
+						<div> Contact </div>
 					</Link>
 				</li>
 
 				<li>
 					<Link activeClass="active" to="Project" spy={true} smooth={true} offset={0} duration={500}>
-						Projects
+						<div> Projects </div>
 					</Link>
 				</li>
 
 				<li>
 					<Link activeClass="active" to="Skills" spy={true} smooth={true} offset={250} duration={500}>
-						Skills
+						<div> Skills </div>
 					</Link>
 				</li>
 			</ul>
