@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3660ae36fd413a867cc14f47ade25749",
+    "revision": "ad0ef2e411ee9992d1f70aa6eb6310f4",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "85495baf9712c0b0c605",
+    "revision": "6afc15f84e465f17f703",
     "url": "/portfolio-website/static/css/main.77c6a4a9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/js/2.f44e4180.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85495baf9712c0b0c605",
-    "url": "/portfolio-website/static/js/main.ca79469c.chunk.js"
+    "revision": "6afc15f84e465f17f703",
+    "url": "/portfolio-website/static/js/main.72a8bcef.chunk.js"
   },
   {
     "revision": "8602db4a7a04e93fc5d1",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/WHPortfolio.5871b581.svg"
   },
   {
-    "revision": "9693de19f1ae3587b140d93973956daf",
-    "url": "/portfolio-website/static/media/Wasif_Hossain_Resume.9693de19.pdf"
+    "revision": "8b2b9f4b2a35d56e00f8c1e749f43096",
+    "url": "/portfolio-website/static/media/Wasif_Hossain_Resume.8b2b9f4b.pdf"
   },
   {
     "revision": "5b04cca285e6b155c6d73406e40ed5a5",
