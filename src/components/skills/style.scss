@@ -72,6 +72,10 @@
 	width: 7%;
 }
 
+.skill-icon:hover {
+	transition: all 5ms ease-in;
+}
+
 @media (max-width: 1800px) {
 	.team {
 		margin-top: 0px;

@@ -113,74 +113,6 @@
 	flex-direction: row;
 }
 
-.github {
-	z-index: 60;
-	max-width: 100% !important;
-	overflow-x: hidden !important;
-	position: absolute;
-	display: block;
-}
-
-.github-txt {
-	text-decoration: none;
-	color: #fff;
-	font-weight: bold;
-	display: inline-block;
-	font-size: 30px;
-	font-family: "Raleway";
-}
-
-.linkedin {
-	z-index: 60;
-	max-width: 100% !important;
-	overflow-x: hidden !important;
-	position: absolute;
-	display: block;
-}
-
-.linkedin-txt {
-	color: #fff;
-	font-weight: bold;
-	font-size: 30px;
-	text-decoration: none;
-	font-family: "Raleway";
-	display: inline-block;
-}
-
-.email {
-	z-index: 60;
-	max-width: 100% !important;
-	overflow-x: hidden !important;
-	position: absolute;
-	display: block;
-}
-
-.email-txt {
-	color: #fff;
-	font-weight: bold;
-	display: inline-block;
-	font-size: 30px;
-	text-decoration: none;
-	font-family: "Raleway";
-}
-
-.resume {
-	z-index: 60;
-	max-width: 100% !important;
-	overflow-x: hidden !important;
-	position: absolute;
-	display: block;
-}
-
-.resume-txt {
-	display: inline-block;
-	text-decoration: none;
-	color: #fff;
-	font-weight: bold;
-	font-size: 30px;
-	font-family: "Raleway";
-}
-
 .social-container {
 	max-width: 800px;
 	width: 100%;
@@ -198,7 +130,6 @@
 }
 
 .flex-item:hover {
-	padding: 70px;
 	opacity: 1;
 }
 
@@ -217,10 +148,6 @@
 	font-size: 30px;
 	padding-bottom: 10px;
 	font-family: "Raleway";
-}
-
-.flex-item:hover {
-	fill: #fce57e;
 }
 
 @media (max-width: 1800px) {
@@ -432,84 +359,6 @@
 	}
 	.chatbubble {
 		display: none;
-	}
-
-	.github {
-		margin-top: 230px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		overflow-x: hidden !important;
-		display: block;
-	}
-
-	.github-txt {
-		text-decoration: none;
-		margin-top: 400px;
-		margin-left: 200px;
-		color: #fff;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
-
-	.linkedin {
-		margin-top: 500px;
-		margin-left: 180px;
-		z-index: 60;
-		height: auto;
-		overflow-x: hidden !important;
-		display: block;
-	}
-
-	.linkedin-txt {
-		text-decoration: none;
-		margin-top: 200px;
-		margin-left: 190px;
-		color: #fff;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
-
-	.email {
-		margin-top: 800px;
-		margin-left: 150px;
-		z-index: 60;
-		height: auto;
-		overflow-x: hidden !important;
-		display: block;
-	}
-
-	.email-txt {
-		text-decoration: none;
-		margin-top: 230px;
-		margin-left: 210px;
-		color: #fff;
-		font-weight: bold;
-		font-size: 30px;
-		font-family: "Raleway";
-	}
-
-	.resume {
-		margin-top: 1100px;
-		margin-left: 190px;
-
-		z-index: 60;
-		height: auto;
-		overflow-x: hidden !important;
-		display: block;
-	}
-
-	.resume-txt {
-		text-decoration: none;
-		margin-top: 260px;
-		margin-left: 190px;
-		color: #fff;
-		font-weight: bold;
-
-		font-size: 30px;
-		font-family: "Raleway";
 	}
 
 	.social-container {
