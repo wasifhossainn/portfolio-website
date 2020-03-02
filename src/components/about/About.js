@@ -9,7 +9,7 @@ import Github from '../../assets/GitIcon.svg';
 import Resume from '../../assets/ResumeIcon.svg';
 import Lottie from 'react-lottie';
 import Message from '../../assets/Chat bubbles-animated-illustration (1).json';
-import PDF from '../../assets/Wasif_Hossain_Resume.pdf';
+import PDF from '../../assets/Wasif-Hossain-Resume.pdf';
 
 import './style.scss';
 

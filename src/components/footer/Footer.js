@@ -5,7 +5,7 @@ import LinkedIn from '../../assets/LinkedInIcon.svg';
 import Email from '../../assets/EmailIcon.svg';
 import Github from '../../assets/GitIcon.svg';
 import Resume from '../../assets/ResumeIcon.svg';
-import PDF from '../../assets/Wasif_Hossain_Resume.pdf';
+import PDF from '../../assets/Wasif-Hossain-Resume.pdf';
 
 import './style.scss';
 
