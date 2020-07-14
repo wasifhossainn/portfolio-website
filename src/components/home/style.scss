@@ -3,17 +3,15 @@
 	src: url("../../fonts/OutrunfutureBoldItalic.otf");
 }
 
-
-
 .header {
 	z-index: 30;
 	text-align: center;
 	position: relative;
 	background-size: cover;
-	height:100vh;
+	height: 100vh;
 	overflow: hidden;
-	bottom: 0px;	
-	top:0px;
+	bottom: 0px;
+	top: 0px;
 	background-image: linear-gradient(to top, #fc60d8 10%, #1b206a 60%);
 }
 
