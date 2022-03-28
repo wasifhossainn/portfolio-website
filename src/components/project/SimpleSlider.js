@@ -13,6 +13,10 @@ import everNoteApp from '../../assets/Evernoteapp.svg';
 import ePortfolio from '../../assets/WHPortfolio.svg';
 import ezyDonate from '../../assets/ezyDonate.svg';
 import SpaceInvaders from '../../assets/SpaceInvaders.svg';
+import IOU from '../../assets/IOUApp.JPG';
+import AntiCheatingExamSystem from '../../assets/Anticheatingexamsystem.png';
+import Travelogue from '../../assets/Travelogue.png';
+import FrontEndSimplified from '../../assets/frontendsimplified.png';
 
 import './style.scss';
 
@@ -32,6 +36,128 @@ export default class SimpleSlider extends Component {
           <div className='flip-card'>
             <div className='flip-card-inner'>
               <div className='flip-card-front'>
+                <img alt='' src={FrontEndSimplified} className='front' />
+              </div>
+              <div className='flip-card-back'>
+                <h1>Front End Simplified</h1>
+                <p>
+                  A capstone project I worked on with the help of another peer which aims to teach students
+                  how to code from the beginning and learn front end development which
+                  would help them be able to acquire a job. My role consisted of being a front end developer who also assisted with
+                  the user interface design and also conducted research for potential use cases of AI for job recommendations.
+                  This application was created using Vue, Firebase, Nuxt, React, Stripe, and Element UI.
+                </p>
+
+                <div className='links-container'>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://frontendsimplified.com/'
+                  >
+                    <img alt='' src={Link} className='linkclick' />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='flip-card'>
+            <div className='flip-card-inner'>
+              <div className='flip-card-front'>
+                <img alt='' src={Travelogue} className='front' />
+              </div>
+              <div className='flip-card-back'>
+                <h1>Travelogue</h1>
+                <p>
+                  A university project where I worked with a group of students
+                  to design and create a web application which utilises AI to generate a trip
+                  based on essential factors such as budget, time, location, number of individuals, date and time.
+                  I was the technical lead of this project and managed a team of 12
+                  and also worked as the UX designer and full stack developer. This application was created using the MERN Stack with TypeScript and also Google APIs.
+                </p>
+
+                <div className='links-container'>
+
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://www.youtube.com/watch?v=rSJsmoA4jxo'>
+                    <img alt='' src={Video} className='playclick' />
+                  </a>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://github.com/Studio-3A'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='flip-card'>
+            <div className='flip-card-inner'>
+              <div className='flip-card-front'>
+                <img alt='' src={AntiCheatingExamSystem} className='front' />
+              </div>
+              <div className='flip-card-back'>
+                <h1>Anti Cheat Exam System</h1>
+                <p>
+                  A university project where I worked with a group
+                  to design and create a web application which would prevent
+                  students from cheating online examinations by using AI to detect
+                  cheating devices and allow teachers to report of any misconduct that may occur. I was the technical lead of this project and managed a team of 12 and
+                  also worked as the UX designer and full stack developer. This application was created using the MERN Stack, Socket.IO, WebRTC and also a YOLO API.
+                </p>
+
+                <div className='links-container'>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://gitlab.com/aces1/anti-cheating-examination-system'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='flip-card'>
+            <div className='flip-card-inner'>
+              <div className='flip-card-front'>
+                <img alt='' src={IOU} className='front' />
+              </div>
+              <div className='flip-card-back'>
+                <h1>IOU Application</h1>
+                <p>
+                  A university project where I worked with a small group of students
+                  to design and create a web application which is a social application
+                  that would allow users to be able to track favours amongst there friends and groups. There
+                  were also additional features of adding friends, sending favours and
+                  recommendations of friends to add or favours to provide. I took the role of a
+                  full stack engineer and also designed the user experience and interface of the
+                  web application using the MERN stack.
+                </p>
+
+                <div className='links-container'>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://github.com/mikaelamcnamara/IOU'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='flip-card'>
+            <div className='flip-card-inner'>
+              <div className='flip-card-front'>
                 <img alt='' src={QuantumUIApp} className='front' />
               </div>
               <div className='flip-card-back'>
@@ -46,14 +172,8 @@ export default class SimpleSlider extends Component {
                 </p>
 
                 <div className='links-container'>
-                  <a
-                    rel='noopener noreferrer'
-                    alt=''
-                    target='_blank'
-                    href='https://gitlab.com/qsi2/quantum-user-interface'
-                  >
-                    <img alt='' className='gitclick' src={Github} />
-                  </a>
+
+
                   <a
                     rel='noopener noreferrer'
                     alt=''
@@ -61,6 +181,14 @@ export default class SimpleSlider extends Component {
                     href='https://polar-plains-05825.herokuapp.com/?fbclid=IwAR11DZzxHjyJAepfa7ybckPbhzjB9lmvI5eW7uxueIAqBnTgcPdyNEX9HO4'
                   >
                     <img alt='' src={Link} className='linkclick' />
+                  </a>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://gitlab.com/qsi2/quantum-user-interface'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
                   </a>
                 </div>
               </div>
@@ -83,14 +211,7 @@ export default class SimpleSlider extends Component {
                 </p>
 
                 <div className='links-container'>
-                  <a
-                    rel='noopener noreferrer'
-                    alt=''
-                    target='_blank'
-                    href='https://github.com/wasifhossainn/ezyDonate-promo-website'
-                  >
-                    <img alt='' className='gitclick' src={Github} />
-                  </a>
+
                   <a
                     rel='noopener noreferrer'
                     alt=''
@@ -98,6 +219,14 @@ export default class SimpleSlider extends Component {
                     href='https://wasifhossainn.github.io/ezyDonate-promo-website/'
                   >
                     <img alt='' src={Link} className='linkclick' />
+                  </a>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://github.com/wasifhossainn/ezyDonate-promo-website'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
                   </a>
                 </div>
               </div>
@@ -147,14 +276,7 @@ export default class SimpleSlider extends Component {
                 </p>
 
                 <div className='links-container'>
-                  <a
-                    rel='noopener noreferrer'
-                    alt=''
-                    target='_blank'
-                    href='https://github.com/wasifhossainn/streams'
-                  >
-                    <img alt='' className='gitclick' src={Github} />
-                  </a>
+
                   <a
                     rel='noopener noreferrer'
                     alt=''
@@ -163,6 +285,14 @@ export default class SimpleSlider extends Component {
 											https://www.youtube.com/watch?v=wkU2ug9M3UQ&feature=youtu.be'
                   >
                     <img alt='' src={Video} className='playclick' />
+                  </a>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://github.com/wasifhossainn/streams'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
                   </a>
                 </div>
               </div>
@@ -186,15 +316,7 @@ export default class SimpleSlider extends Component {
                 </p>
 
                 <div className='links-container'>
-                  {' '}
-                  <a
-                    rel='noopener noreferrer'
-                    alt=''
-                    target='_blank'
-                    href='https://github.com/DavidOsburnUTS/studio-group8'
-                  >
-                    <img alt='' className='gitclick' src={Github} />
-                  </a>
+
                   <a
                     rel='noopener noreferrer'
                     alt=''
@@ -203,6 +325,15 @@ export default class SimpleSlider extends Component {
 									https://www.youtube.com/watch?v=hsRhr7fpbcY&feature=youtu.be'
                   >
                     <img alt='' src={Video} className='playclick' />
+                  </a>
+
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://github.com/DavidOsburnUTS/studio-group8'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
                   </a>
                 </div>
               </div>
@@ -225,14 +356,7 @@ export default class SimpleSlider extends Component {
                 </p>
 
                 <div className='links-container'>
-                  <a
-                    rel='noopener noreferrer'
-                    alt=''
-                    target='_blank'
-                    href='https://github.com/mikaelamcnamara/ezyDonate'
-                  >
-                    <img alt='' className='gitclick' src={Github} />
-                  </a>
+
                   <a
                     rel='noopener noreferrer'
                     alt=''
@@ -241,6 +365,14 @@ export default class SimpleSlider extends Component {
 										https://www.youtube.com/watch?v=3tOcMkz4dwE&feature=youtu.be'
                   >
                     <img alt='' src={Video} className='playclick' />
+                  </a>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://github.com/mikaelamcnamara/ezyDonate'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
                   </a>
                 </div>
               </div>
@@ -262,14 +394,7 @@ export default class SimpleSlider extends Component {
                 </p>
 
                 <div className='links-container'>
-                  <a
-                    rel='noopener noreferrer'
-                    alt=''
-                    target='_blank'
-                    href='https://github.com/wasifhossainn/evernote'
-                  >
-                    <img alt='' className='gitclick' src={Github} />
-                  </a>
+
                   <a
                     rel='noopener noreferrer'
                     alt=''
@@ -277,6 +402,14 @@ export default class SimpleSlider extends Component {
                     href='https://wasifhossainn.github.io/evernote/'
                   >
                     <img alt='' src={Link} className='linkclick' />
+                  </a>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://github.com/wasifhossainn/evernote'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
                   </a>
                 </div>
               </div>
@@ -300,14 +433,7 @@ export default class SimpleSlider extends Component {
                 </p>
 
                 <div className='links-container'>
-                  <a
-                    rel='noopener noreferrer'
-                    alt=''
-                    target='_blank'
-                    href='https://github.com/wasifhossainn/algorithms'
-                  >
-                    <img alt='' className='gitclick' src={Github} />
-                  </a>
+
                   <a
                     rel='noopener noreferrer'
                     alt=''
@@ -315,6 +441,14 @@ export default class SimpleSlider extends Component {
                     href='https://www.youtube.com/watch?v=s4XXr5mWGTo&feature=youtu.be'
                   >
                     <img alt='' src={Video} className='playclick' />
+                  </a>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://github.com/wasifhossainn/algorithms'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
                   </a>
                 </div>
               </div>
@@ -335,14 +469,7 @@ export default class SimpleSlider extends Component {
                     and high score.
                   </p>
                   <div className='links-container'>
-                    <a
-                      rel='noopener noreferrer'
-                      alt=''
-                      target='_blank'
-                      href='https://github.com/wasifhossainn/carRush'
-                    >
-                      <img alt='' src={Github} className='gitclick' />
-                    </a>
+
                     <a
                       rel='noopener noreferrer'
                       alt=''
@@ -350,6 +477,14 @@ export default class SimpleSlider extends Component {
                       href='https://www.youtube.com/watch?v=iwKxE6eLuHw&feature=youtu.be'
                     >
                       <img alt='' src={Video} className='playclick' />
+                    </a>
+                    <a
+                      rel='noopener noreferrer'
+                      alt=''
+                      target='_blank'
+                      href='https://github.com/wasifhossainn/carRush'
+                    >
+                      <img alt='' src={Github} className='gitclick' />
                     </a>
                   </div>
                 </div>
@@ -372,14 +507,7 @@ export default class SimpleSlider extends Component {
                 </p>
 
                 <div className='links-container'>
-                  <a
-                    rel='noopener noreferrer'
-                    alt=''
-                    target='_blank'
-                    href='https://github.com/wasifhossainn/SpaceInvader'
-                  >
-                    <img alt='' className='gitclick' src={Github} />
-                  </a>
+
                   <a
                     rel='noopener noreferrer'
                     alt=''
@@ -387,6 +515,14 @@ export default class SimpleSlider extends Component {
                     href='https://www.youtube.com/watch?v=yAzAS21myGg&feature=youtu.be'
                   >
                     <img alt='' src={Video} className='playclick' />
+                  </a>
+                  <a
+                    rel='noopener noreferrer'
+                    alt=''
+                    target='_blank'
+                    href='https://github.com/wasifhossainn/SpaceInvader'
+                  >
+                    <img alt='' className='gitclick' src={Github} />
                   </a>
                 </div>
               </div>

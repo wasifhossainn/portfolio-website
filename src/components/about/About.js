@@ -29,19 +29,18 @@ const About = () => {
           <img alt='' className='divider' src={Divider} />
           <h1 className='aboutHeading'>ABOUT ME</h1>
           <p className='about-section-1'>
-            Hi, my name is Wasif Hossain and I am a 3rd year
-            <br />
-            Software Engineering Student at University of Technology Sydney.
+            Hi, my name is Wasif Hossain and I have recently graduated
+
+            as a  <br /> Software Engineer (Honours) from University of Technology Sydney (Nov 2021).
           </p>
           <p className='about-section-2'>
             I'm a passionate and a hardworking individual who has had recent
-            experience working as a full-time front-end developer at Stomble.
-            <br />
-            This exposed me to web and mobile development as I used ReactJS
-            Framework to create a video platform application.
+            experience working as a full-time machine learning developer at SpiralBlue using satellite technology.This exposed me to web and machine learning algorithms as I used tensorflow and tested the algorithms
+            against real world datasets. I have also had experience in web and mobile development due to my experience at Stomble and Buzzy Buzz where I was building real world applications and features
+            that would be used by several hundreds and thousands of users and technology that would be adopted by enterprises.
           </p>
           <p className='about-section-3'>
-            I aspire to consistently develop my web and mobile programming
+            I aspire to consistently develop my web and mobile programming and also machine learning
             skills. I believe that software engineering gives me opportunities
             and provides me exposure to tools and skills which can be
             implemented in real-world problems to produce premium quality

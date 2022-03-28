@@ -27,14 +27,19 @@ const Skills = () => {
         <img alt='' className='team' src={Team} />
         <h1 className='skillHeading'>TECHNICAL SKILLS</h1>
         <p className='skill-section-1'>
-          Recently, I worked at Stomble (June 2019- February 2020) as a
-          front-end developer in a <br /> SCRUM environment where we created a
-          video platform using ReactJS, AWS APIs, <br /> Material UI and Redux
-          Sagas. Also, used tools such as GitLab for pipeline testing and <br />{' '}
-          ensuring the application would not encounter run-time error and Trello
-          for organising <br /> SCRUM product backlog. The application connects
-          businesses and users, allowing users <br /> to absorb content through
-          videos that are posted by businesses.
+          I have had experience across web and mobile development from my experience at <br /> Buzzy Buzz & Stomble (June 2019 - Feb 2021) and also machine learning at SpiralBlue (Nov 2021 - Present).
+          <br /> <br /> For my experience at Stomble I worked as a full stack engineer in a SCRUM based environment where  <br /> I was responsible or creating a video platform using ReactJS, AWS APIs, Material UI and Redux Sags.
+          <br />
+          <br />
+          As for Buzzy Buzz I had also worked as a full stack engineer but also as a mobile developer in order to <br /> produce features and functions on top of their no-code solution platform using MeteorJS, NodeJS, React Native, React, HTML5 and Javascript.
+
+          <br />
+          < br /> Recently, I had worked at Spiral Blue as a machine learning developer which involved further research, developing and testing on technologies such as python, tensorflow, openCV, Microsoft Azure, cvat and also space edge computing, observation satellites, deep learning, advanced image segmentation and compression.
+
+          <br />
+          <br />
+          I have also used tools such as GitLab for pipeline testing and ensuring that the application would not encounter run-time errors and Trello/ Jira for organising the SCRUM product backlog. As a result, I have had
+          experience in both remote and office based which are in agile based environments to develop applications which would be used by several users and adopted by enterprises.
         </p>
         <div className='skill-icon-container'>
           <img alt='' title='HTML5' className='skill-icon' src={HTML5} />
