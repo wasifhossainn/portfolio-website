@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1408b94d73e8cfa420b1ae01adba1462",
+    "revision": "556cb8cfc61c72fff36623c5824e90bd",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "525cd64554a0eaa1059c",
-    "url": "/portfolio-website/static/css/main.8d4f5f29.chunk.css"
+    "revision": "621ce1ed4a5cc1c76a1c",
+    "url": "/portfolio-website/static/css/main.03433e64.chunk.css"
   },
   {
-    "revision": "c644f933664a6fef2ab3",
-    "url": "/portfolio-website/static/js/2.e5ad6421.chunk.js"
+    "revision": "e3669cc64f66b6f06c96",
+    "url": "/portfolio-website/static/js/2.63e9a6dc.chunk.js"
   },
   {
     "revision": "209d7f261911842216918882d1f3ddbc",
-    "url": "/portfolio-website/static/js/2.e5ad6421.chunk.js.LICENSE.txt"
+    "url": "/portfolio-website/static/js/2.63e9a6dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "525cd64554a0eaa1059c",
-    "url": "/portfolio-website/static/js/main.cb76de04.chunk.js"
+    "revision": "621ce1ed4a5cc1c76a1c",
+    "url": "/portfolio-website/static/js/main.c7590b18.chunk.js"
   },
   {
     "revision": "8602db4a7a04e93fc5d1",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "35be897ddc97f36b052d26791aea8a69",
     "url": "/portfolio-website/static/media/Algorithms.35be897d.svg"
+  },
+  {
+    "revision": "d5eda8972584990fe6e402e43bf4972e",
+    "url": "/portfolio-website/static/media/Anticheatingexamsystem.d5eda897.png"
   },
   {
     "revision": "e5649e219a17c1d0e4abf3d20490d110",
@@ -42,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2cc188266ef92862e1e7f9e37a4f5bde",
     "url": "/portfolio-website/static/media/GitIcon.2cc18826.svg"
+  },
+  {
+    "revision": "0a2519d1cf44b16c85d80dfccb13e76c",
+    "url": "/portfolio-website/static/media/IOUApp.0a2519d1.JPG"
   },
   {
     "revision": "70c145354e48cabd29ef75a6cc5911cd",
@@ -88,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/TechBoy.4abf9cd6.svg"
   },
   {
+    "revision": "4737647d7fbbb5215f2f107719a21a30",
+    "url": "/portfolio-website/static/media/Travelogue.4737647d.png"
+  },
+  {
     "revision": "bfea57f9ab9200b5f4169dd46a60bff2",
     "url": "/portfolio-website/static/media/WH Logo.bfea57f9.png"
   },
@@ -96,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/WHPortfolio.5871b581.svg"
   },
   {
-    "revision": "54469ed589cf13ef7e4dcfc841ec8a80",
-    "url": "/portfolio-website/static/media/Wasif-Hossain-Resume.54469ed5.pdf"
+    "revision": "b02ad263a8763f0830307fd5a550ef96",
+    "url": "/portfolio-website/static/media/Wasif-Hossain-Resume.b02ad263.pdf"
   },
   {
     "revision": "14ed07e698c69df6da8744861c0ef7cd",
@@ -134,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3a28f8fd0066a857c982d8a770b9d4af",
     "url": "/portfolio-website/static/media/ezyDonate.3a28f8fd.svg"
+  },
+  {
+    "revision": "fdf2ddcadd7923247ee825284297729b",
+    "url": "/portfolio-website/static/media/frontendsimplified.fdf2ddca.png"
   },
   {
     "revision": "7997c4244e7a8cf2b160803e1c741502",
